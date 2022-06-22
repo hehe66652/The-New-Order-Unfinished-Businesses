@@ -1,0 +1,38 @@
+##############################
+###   TNOUB China Events   ###
+##############################
+
+add_namespace = tnoub_chi
+
+country_event = { #TNOUB Start
+	id = tnoub_chi.1
+	title = tnoub_chi.1.t
+	desc = tnoub_chi.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.1.a
+		custom_effect_tooltip = tnoub_chi.1.a.tt
+	}
+}
+
+
+country_event = { #Military Focus Start
+	id = tnoub_chi.2
+	title = tnoub_chi.2.t
+	desc = tnoub_chi.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.2.a
+		custom_effect_tooltip = tnoub_chi.2.a.tt
+		hidden_effect = {
+			load_focus_tree = tnoub_china_remaining_modernization
+			set_country_flag = tnoub_chi_remaining_modernization
+		}
+	}
+}

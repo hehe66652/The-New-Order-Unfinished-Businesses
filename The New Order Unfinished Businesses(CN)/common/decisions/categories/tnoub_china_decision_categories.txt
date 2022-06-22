@@ -1,7 +1,0 @@
-CHI_Remilitarization_category = {	#中国再武装
-	icon = GFX_decision_category_army_reform
-
-	visible = {
-		has_country_flag = tnoub_chi_remaining_modernization
-	}
-}
