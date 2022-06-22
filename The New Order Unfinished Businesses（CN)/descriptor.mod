@@ -1,6 +1,6 @@
 #By JamesRavenlake
 
-name="The New Order Unfinished Businesses"
+name="The New Order Unfinished Businesses(CN)"
 version="0.1"
 supported_version="1.11.*"
 
@@ -13,4 +13,4 @@ dependencies={
 }
 
 picture="thumbnail.png"
-path="mod/The New Order Unfinished Businesses"
+path="mod/The New Order Unfinished Businesses(CN)"
