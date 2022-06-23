@@ -19,4 +19,375 @@ CHI_Remilitarization_category = {
 		cost = 75
 		fire_only_once = yes
 	}
+	CHI_mission_to_tokyo = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_mission_to_germany = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_mission_to_vietnam = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_mission_to_thailand = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_invite_germans = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_invite_italians = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_invite_americans = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_Purchase_from_Zaibatsus = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_Purchase_from_Manchuria = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_Purchase_from_Indian = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_Invite_kempetai_inspectors = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_Dinner_With_Ambassador = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_bandit_strike_convy = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_attache_to_tokyo = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_refit_cruisers_modern = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_look_into_nuclear = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_mining_op = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	CHI_smuggle_in_designs = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			#check_variable = { CHI_faction_visible = 1 } 
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	debug_militarizationdecison = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 1
+		days_remove = 1
+		cost = 75
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { ija_alert = 5 } 
+		}
+	}
+	debug_militarizationdecisondown = {
+		icon = GFX_COG_invitation_decision
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 1
+		days_remove = 1
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { ija_alert = -5 } 
+		}
+	}
 }
