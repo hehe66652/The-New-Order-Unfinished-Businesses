@@ -358,13 +358,11 @@ CHI_Remilitarization_category = {
 			CHI_is_not_in_crisis = yes
 		}
 
-		days_re_enable = 1
-		days_remove = 1
-		cost = 75
+		cost = 0
 		fire_only_once = no
 
 		complete_effect = {
-			add_to_variable = { ija_alert = 5 } 
+			add_to_variable = { ija_alert = 0.05 } 
 		}
 	}
 	debug_militarizationdecisondown = {
@@ -381,13 +379,11 @@ CHI_Remilitarization_category = {
 			CHI_is_not_in_crisis = yes
 		}
 
-		days_re_enable = 1
-		days_remove = 1
 		cost = 0
 		fire_only_once = no
 
 		complete_effect = {
-			add_to_variable = { ija_alert = -5 } 
+			add_to_variable = { ija_alert = -0.05 } 
 		}
 	}
 }
