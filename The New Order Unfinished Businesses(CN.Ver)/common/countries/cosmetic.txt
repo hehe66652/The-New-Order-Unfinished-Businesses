@@ -2307,6 +2307,26 @@ MON_CHI_autonomous_region = {
 	color_ui = rgb { 0 0 104 }
 }
 
+XIN_CHI_autonomous_region = {
+	color = rgb { 0 0 104 }
+	color_ui = rgb { 0 0 104 }
+}
+
+QIN_CHI_autonomous_region = {
+	color = rgb { 0 0 104 }
+	color_ui = rgb { 0 0 104 }
+}
+
+GNG_CHI_autonomous_region = {
+	color = rgb { 0 0 104 }
+	color_ui = rgb { 0 0 104 }
+}
+
+FOR_CHI_autonomous_region = {
+	color = rgb { 0 0 104 }
+	color_ui = rgb { 0 0 104 }
+}
+
 KOR_CHI = {
 	color = rgb { 0 101 163 }
 	color_ui = rgb { 0 101 163 }
