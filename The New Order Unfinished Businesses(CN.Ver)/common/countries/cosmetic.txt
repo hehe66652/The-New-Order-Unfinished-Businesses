@@ -2293,38 +2293,43 @@ UTL_TURAN = {
 
 
 CHI_ROC = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 TIB_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 MON_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 XIN_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 QIN_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
+}
+
+GUX_CHI_autonomous_region = {
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 GNG_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 FOR_CHI_autonomous_region = {
-	color = rgb { 0 0 104 }
-	color_ui = rgb { 0 0 104 }
+	color = rgb { 35 53 104 }
+	color_ui = rgb { 35 53 104 }
 }
 
 KOR_CHI = {
