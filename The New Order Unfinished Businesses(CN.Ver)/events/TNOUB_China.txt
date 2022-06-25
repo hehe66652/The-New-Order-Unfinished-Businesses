@@ -36,3 +36,20 @@ country_event = { #Military Focus Start
 		}
 	}
 }
+
+country_event = { #Remilitarization Decisions
+	id = tnoub_chi.3
+	title = tnoub_chi.3.t
+	desc = tnoub_chi.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.3.a
+		custom_effect_tooltip = tnoub_chi.3.a.tt
+		hidden_effect = {
+			set_country_flag = TNOUB_CHI_Remilitarization
+		}
+	}
+}

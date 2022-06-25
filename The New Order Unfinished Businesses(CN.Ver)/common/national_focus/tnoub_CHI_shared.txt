@@ -23,7 +23,9 @@ shared_focus = {
 	x = 9
 	y = 0
 	completion_reward = {
-		
+		country_event = {
+    		id = tnoub_chi.3
+		}
 	}
 }
 

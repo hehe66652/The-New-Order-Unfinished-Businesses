@@ -11,6 +11,14 @@
   MON_CHI_autonomous_region_DEF:0 "蒙古自治区"
   MON_CHI_autonomous_region_ADJ:0 "中国蒙古"
 
+  XIN_CHI_autonomous_region:0 "新疆自治区"
+  XIN_CHI_autonomous_region_DEF:0 "新疆自治区"
+  XIN_CHI_autonomous_region_ADJ:0 "中国新疆"
+
+  QIN_CHI_autonomous_region:0 "自治区"
+  QIN_CHI_autonomous_region_DEF:0 "自治区"
+  QIN_CHI_autonomous_region_ADJ:0 "中国"
+
 
 #### EVENTS ####
 
@@ -22,6 +30,9 @@
   tnoub_chi.2.d:0 "求求来个人帮忙写文案吧"
   tnoub_chi.2.a:0 "军事现代化事件按钮占位"
 
+  tnoub_chi.3.t:0 "中国再武装事件标题占位"
+  tnoub_chi.3.d:0 "求求来个人帮忙写文案吧"
+  tnoub_chi.3.a:0 "中国再武装事件按钮占位"
 
 
 ########################################################################
