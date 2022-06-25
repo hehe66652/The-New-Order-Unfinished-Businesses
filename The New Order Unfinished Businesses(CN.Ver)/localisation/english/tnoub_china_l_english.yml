@@ -12,19 +12,32 @@
   MON_CHI_autonomous_region_ADJ:0 "中国蒙古"
 
   XIN_CHI_autonomous_region:0 "新疆自治区"
-  XIN_CHI_autonomous_region_DEF:0 "新疆自治区"
+  XIN_CHI_autonomous_region_DEF:0 "新疆维吾尔自治区"
   XIN_CHI_autonomous_region_ADJ:0 "中国新疆"
 
-  QIN_CHI_autonomous_region:0 "自治区"
-  QIN_CHI_autonomous_region_DEF:0 "自治区"
-  QIN_CHI_autonomous_region_ADJ:0 "中国"
+  QIN_CHI_autonomous_region:0 "青海-宁夏自治区"
+  QIN_CHI_autonomous_region_DEF:0 "青海-宁夏回族自治区"
+  QIN_CHI_autonomous_region_ADJ:0 "中国青海"
+
+  GUX_CHI_autonomous_region:0 "广西自治区"
+  GUX_CHI_autonomous_region_DEF:0 "广西壮族自治区"
+  GUX_CHI_autonomous_region_ADJ:0 "中国广西"
+
+  FOR_CHI_autonomous_region:0 "台湾自治区"
+  FOR_CHI_autonomous_region_DEF:0 "台湾自治区"
+  FOR_CHI_autonomous_region_ADJ:0 "中国台湾"
+
+  GNG_CHI_autonomous_region:0 "广澳港自治区"
+  GNG_CHI_autonomous_region_DEF:0 "广州-澳门-香港自治区"
+  GNG_CHI_autonomous_region_ADJ:0 "中国广澳港"
+
 
 
 #### EVENTS ####
 
   tnoub_chi.1.t:0 "高宗武的未竟之事"
-  tnoub_chi.1.d:0 "随着大会闭幕，TNO原版的内容已经结束，下面，是高宗武先生的未竟之事。"
-  tnoub_chi.1.a:0 "让我们完成它！"
+  tnoub_chi.1.d:0 "求求来个人帮忙写文案吧"
+  tnoub_chi.1.a:0 "占位"
 
   tnoub_chi.2.t:0 "军事现代化事件标题占位"
   tnoub_chi.2.d:0 "求求来个人帮忙写文案吧"
