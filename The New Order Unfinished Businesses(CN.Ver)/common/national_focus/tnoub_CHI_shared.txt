@@ -30,11 +30,11 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_attache_to_tokyo
+	id = CHI_Hiding_Our_Interests
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_bandit_strike_convy
+		focus = 
 	}
 	relative_position_id = CHI_Military
 	x = -4
@@ -43,6 +43,354 @@ shared_focus = {
 		
 	}
 }
+
+shared_focus = {
+	id = CHI_Military_Industrial_Standard_Design
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Dig_Deep_Hole
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Wide_Accumulate_Grain
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Buying_TC
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Protecting_Japanese_interests
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Introducing_Foreign_Design
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Purchase_Spare_Parts
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Distribution_Networks
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Military_Doctrine
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_New_Theory
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Combined_Operations
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Tactical_Battle_Group
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_CCCI
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Wisdom_of_The_Past
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Fully_Prepared
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Build_The_Advantage
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Final_Word
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Lengthy_Practice #十年磨剑
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Purchase_Spare_Parts
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Distribution_Networks
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Military_Doctrine
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_New_Theory
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Combined_Operations
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = 
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+
+
 #####################################
 # POLIO TREE - WE NEED TO FIND CURE #
 #####################################
