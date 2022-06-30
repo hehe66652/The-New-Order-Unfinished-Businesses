@@ -29,6 +29,7 @@ country_event = { #Military Focus Start
 
 	option = {
 		name = tnoub_chi.2.a
+		
 		custom_effect_tooltip = tnoub_chi.2.a.tt
 		hidden_effect = {
 			load_focus_tree = tnoub_china_remaining_modernization
