@@ -76,8 +76,8 @@
   CHI_A_Step_In_The_Right_Direction_desc:0 "占位符"
   CHI_Secret_Army:0 "允许妇女工作"
   CHI_Secret_Army_desc:0 "占位符"
-  CHI_Hidden_Arsenals:0 "隐藏军火库"
-  CHI_Hidden_Arsenals_desc:0 "占位符"
+  CHI_Hidden_Arsenals:0 "隐藏军火库"  #UNUSE 未使用
+  CHI_Hidden_Arsenals_desc:0 "占位符"  #UNUSE 未使用
   CHI_Disguised_Inventories:0 "伪造库存"
   CHI_Disguised_Inventories_desc:0 "占位符"
   CHI_Cycle_the_Reserves:0 "循环预备役"
