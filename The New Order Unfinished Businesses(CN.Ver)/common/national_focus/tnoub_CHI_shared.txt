@@ -34,10 +34,25 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Military
 	}
 	relative_position_id = CHI_Military
 	x = -4
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Weapons_Cache
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Hiding_Our_Interests
+	}
+	relative_position_id = CHI_Military
+	x = -5
 	y = 2
 	completion_reward = {
 		
@@ -49,11 +64,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Weapons_Cache
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -5
+	y = 3
 	completion_reward = {
 		
 	}
@@ -64,11 +79,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Military_Industrial_Standard_Design
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -5
+	y = 4
 	completion_reward = {
 		
 	}
@@ -79,11 +94,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Dig_Deep_Hole
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -5
+	y = 5
 	completion_reward = {
 		
 	}
@@ -94,10 +109,10 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Hiding_Our_Interests
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = -3
 	y = 2
 	completion_reward = {
 		
@@ -109,11 +124,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Buying_TC
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -3
+	y = 3
 	completion_reward = {
 		
 	}
@@ -124,11 +139,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Protecting_Japanese_interests
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -3
+	y = 4
 	completion_reward = {
 		
 	}
@@ -139,11 +154,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Introducing_Foreign_Design
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -3
+	y = 5
 	completion_reward = {
 		
 	}
@@ -154,11 +169,14 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Wide_Accumulate_Grain
+	}
+	prerequisite = {
+		focus = CHI_Purchase_Spare_Parts
 	}
 	relative_position_id = CHI_Military
 	x = -4
-	y = 2
+	y = 6
 	completion_reward = {
 		
 	}
@@ -169,11 +187,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Military
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 0
+	y = 1
 	completion_reward = {
 		
 	}
@@ -183,11 +201,14 @@ shared_focus = {
 	id = CHI_New_Theory
 	icon = GFX_
 	cost = 5.00
+	mutually_exclusive = {
+		focus = CHI_Wisdom_of_The_Past
+	}
 	prerequisite = {
-		focus = 
+		focus = CHI_Military_Doctrine
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = -1
 	y = 2
 	completion_reward = {
 		
@@ -199,11 +220,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_New_Theory
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 3
 	completion_reward = {
 		
 	}
@@ -214,11 +235,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Combined_Operations
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 4
 	completion_reward = {
 		
 	}
@@ -229,11 +250,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Tactical_Battle_Group
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 5
 	completion_reward = {
 		
 	}
@@ -243,11 +264,14 @@ shared_focus = {
 	id = CHI_Wisdom_of_The_Past
 	icon = GFX_
 	cost = 5.00
+	mutually_exclusive = {
+		focus = CHI_New_Theory
+	}
 	prerequisite = {
-		focus = 
+		focus = CHI_Military_Doctrine
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = 1
 	y = 2
 	completion_reward = {
 		
@@ -259,11 +283,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Wisdom_of_The_Past
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 1
+	y = 3
 	completion_reward = {
 		
 	}
@@ -274,11 +298,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Fully_Prepared
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 1
+	y = 4
 	completion_reward = {
 		
 	}
@@ -289,26 +313,26 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Build_The_Advantage
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 1
+	y = 5
 	completion_reward = {
 		
 	}
 }
 
 shared_focus = {
-	id = CHI_Lengthy_Practice #十年磨剑
+	id = CHI_Lengthy_Practice
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_CCCI focus = CHI_Final_Word
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 0
+	y = 6
 	completion_reward = {
 		
 	}
@@ -319,11 +343,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Military
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 4
+	y = 1
 	completion_reward = {
 		
 	}
@@ -334,10 +358,10 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Soldier
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = 3
 	y = 2
 	completion_reward = {
 		
@@ -349,11 +373,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Raise_Conscription_Standards
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 3
+	y = 3
 	completion_reward = {
 		
 	}
@@ -364,11 +388,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Patriotic_Propaganda
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 3
+	y = 4
 	completion_reward = {
 		
 	}
@@ -379,11 +403,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Cycle_the_Reserves
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 3
+	y = 5
 	completion_reward = {
 		
 	}
@@ -394,10 +418,10 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Soldier
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = 5
 	y = 2
 	completion_reward = {
 		
@@ -409,11 +433,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Revive_The_Whampoa_Spirit
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 5
+	y = 3
 	completion_reward = {
 		
 	}
@@ -424,11 +448,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Promotion_Young_Officers
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 5
+	y = 4
 	completion_reward = {
 		
 	}
@@ -439,11 +463,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Attach_Importance_To_Technical_Officers
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 5
+	y = 5
 	completion_reward = {
 		
 	}
@@ -454,11 +478,14 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Bloody_Sweat_Not_Shed_Tears
+	}
+	prerequisite = {
+		focus = CHI_Rebuild_Training_Division
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 4
+	y = 6
 	completion_reward = {
 		
 	}
@@ -469,26 +496,17 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Distribution_Networks
 	}
-	relative_position_id = CHI_Military
-	x = -4
-	y = 2
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = CHI_A_Step_Too_Far
-	icon = GFX_
-	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Lengthy_Practice
+	}
+	prerequisite = {
+		focus = CHI_military_missions
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 0
+	y = 7
 	completion_reward = {
 		
 	}
@@ -498,27 +516,48 @@ shared_focus = {
 	id = CHI_A_Step_In_The_Right_Direction
 	icon = GFX_
 	cost = 5.00
+	mutually_exclusive = {
+		focus = CHI_A_Step_Too_Far
+	}
 	prerequisite = {
-		focus = 
+		focus = CHI_Toe_the_line
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 8
 	completion_reward = {
 		
 	}
 }
 
 shared_focus = {
-	id = CHI_Secret_Army
+	id = CHI_A_Step_Too_Far
+	icon = GFX_
+	cost = 5.00
+	mutually_exclusive = {
+		focus = CHI_A_Step_In_The_Right_Direction
+	}
+	prerequisite = {
+		focus = CHI_Toe_the_line
+	}
+	relative_position_id = CHI_Military
+	x = 1
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Allow_Women_To_Work
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 9
 	completion_reward = {
 		
 	}
@@ -529,11 +568,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Allow_Women_To_Work
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = -1
+	y = 10
 	completion_reward = {
 		
 	}
@@ -544,11 +583,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 1
+	y = 9
 	completion_reward = {
 		
 	}
@@ -559,11 +598,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Control_Media
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 1
+	y = 10
 	completion_reward = {
 		
 	}
@@ -574,11 +613,14 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Mil_Propoganda
+	}
+	prerequisite = {
+		focus = CHI_Disguised_Inventories
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 0
+	y = 11
 	completion_reward = {
 		
 	}
@@ -589,11 +631,11 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = 
+		focus = CHI_Waking_the_Tiger
 	}
 	relative_position_id = CHI_Military
-	x = -4
-	y = 2
+	x = 0
+	y = 12
 	completion_reward = {
 		
 	}
