@@ -8,7 +8,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -26,7 +26,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -44,7 +44,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -62,7 +62,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -80,7 +80,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -98,7 +98,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -116,7 +116,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -134,7 +134,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -152,7 +152,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -161,7 +161,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_Purchase_from_Manchuria = {
 		icon = GFX_COG_invitation_decision
@@ -170,7 +170,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -179,7 +179,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_Purchase_from_Indian = {
 		icon = GFX_COG_invitation_decision
@@ -188,7 +188,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -197,7 +197,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_Invite_kempetai_inspectors = {
 		icon = GFX_COG_invitation_decision
@@ -206,7 +206,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -215,7 +215,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_Dinner_With_Ambassador = {
 		icon = GFX_COG_invitation_decision
@@ -224,7 +224,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -233,7 +233,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_bandit_strike_convy = {
 		icon = GFX_COG_invitation_decision
@@ -242,7 +242,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -251,7 +251,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_attache_to_tokyo = {
 		icon = GFX_COG_invitation_decision
@@ -260,7 +260,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -269,7 +269,7 @@ CHI_Remilitarization_category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 	CHI_refit_cruisers_modern = {
 		icon = GFX_COG_invitation_decision
@@ -278,7 +278,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -296,7 +296,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -314,7 +314,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } #这玩意是干什么的？
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -332,7 +332,7 @@ CHI_Remilitarization_category = {
 			original_tag = CHI
 		}
 		visible = {
-			#check_variable = { CHI_faction_visible = 1 } 
+			
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
@@ -385,5 +385,152 @@ CHI_Remilitarization_category = {
 		complete_effect = {
 			add_to_variable = { ija_alert = -0.05 } 
 		}
+	}
+}
+
+CHI_Hiding_Our_Interests_Category - {
+	the_jiangsu_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_jiangxi_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_changde_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_shijiazhuang_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_wuhan_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_chongqing_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_yunnan_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+	the_fujian_cache = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
 	}
 }

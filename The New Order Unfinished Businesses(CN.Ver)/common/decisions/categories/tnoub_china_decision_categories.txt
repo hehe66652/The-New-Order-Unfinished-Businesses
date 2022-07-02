@@ -5,3 +5,11 @@ CHI_Remilitarization_category = {	#中国再武装
 		has_country_flag = TNOUB_CHI_Remilitarization
 	}
 }
+
+CHI_Hiding_Our_Interests_Category = {	#掩饰我方目的
+	icon = GFX_
+
+	visible = {
+		has_country_flag = TNOUB_CHI_Hiding_Our_Interests
+	}
+}

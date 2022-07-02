@@ -4,6 +4,10 @@
 
 add_namespace = tnoub_chi
 
+#ids: 
+#1-99 - Effect Events
+#100-199 - Remilitarization flavor events
+
 country_event = { #TNOUB Start
 	id = tnoub_chi.1
 	title = tnoub_chi.1.t
@@ -51,6 +55,23 @@ country_event = { #Remilitarization Decisions
 		custom_effect_tooltip = tnoub_chi.3.a.tt
 		hidden_effect = {
 			set_country_flag = TNOUB_CHI_Remilitarization
+		}
+	}
+}
+
+country_event = { #Hiding Our Interests Decisions
+	id = tnoub_chi.4
+	title = tnoub_chi.4.t
+	desc = tnoub_chi.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.4.a
+		custom_effect_tooltip = tnoub_chi.4.a.tt
+		hidden_effect = {
+			set_country_flag = TNOUB_CHI_Hiding_Our_Interests
 		}
 	}
 }
