@@ -20,12 +20,23 @@ shared_focus = {
 	allow_branch = {
 		has_country_flag = tnoub_chi_remaining_modernization
 	}
+
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+
 	x = 9
 	y = 0
 	completion_reward = {
-		country_event = {
-    		id = tnoub_chi.3
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Military"
+		custom_effect_tooltip = CHI_Military_tt
+		hidden_effect = {
+			country_event = {
+    			id = tnoub_chi.3
+			}
 		}
+		
 	}
 }
 
@@ -40,8 +51,10 @@ shared_focus = {
 	x = -4
 	y = 1
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Hiding_Our_Interests"
+		custom_effect_tooltip = CHI_Hiding_Our_Interests_TT
 		country_event = {
-    		id = tnoub_chi.4
+    		id = tnoub_chi.5
 		}
 	}
 }
@@ -57,7 +70,10 @@ shared_focus = {
 	x = -5
 	y = 2
 	completion_reward = {
-		
+		custom_effect_tooltip = CHI_Weapons_Cache_TT
+		hidden_effect = {
+			set_variable = { CHI_allow_cache_weapon = 1 }
+		}
 	}
 }
 
@@ -72,7 +88,10 @@ shared_focus = {
 	x = -5
 	y = 3
 	completion_reward = {
-		
+		custom_effect_tooltip = CHI_Military_Industrial_Standard_Design_tt
+		hidden_effect = {
+			set_variable = { CHI_allow_build_military_standard_factory = 1 }
+		}
 	}
 }
 

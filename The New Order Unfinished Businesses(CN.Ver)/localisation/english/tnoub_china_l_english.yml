@@ -1,4 +1,8 @@
 ﻿l_english:
+
+###############################################
+# COUNTRY NAME LOCALISATION  |  国家名称本地化 #
+###############################################
   CHI_ROC:0 "中华民国"
   CHI_ROC_DEF:0 "中华民国"
   CHI_ROC_ADJ:0 "中国"
@@ -43,34 +47,61 @@
   GNG_CHI_autonomous_region_DEF:0 "广州-澳门-香港自治区"
   GNG_CHI_autonomous_region_ADJ:0 "中国广澳港"
 
+#######################################
+# IDEA LOCALISATION  |  国家精神本地化 #
+#######################################
 
+  CHI_japan_on_alert:0 "日本警惕"
+  CHI_japan_on_alert_desc:0 "占位符"
 
-#### EVENTS ####
+####################################
+# EVENT LOCALISATION  |  事件本地化 #
+####################################
 
   tnoub_chi.1.t:0 "高宗武的未竟之事"
-  tnoub_chi.1.d:0 "求求来个人帮忙写文案吧"
+  tnoub_chi.1.d:0 "求求来个人帮忙写文案吧 这里是占位符"
   tnoub_chi.1.a:0 "占位"
+  tnoub_chi.1.a.tt:0 "§R为了中国的未来！§!"
 
   tnoub_chi.2.t:0 "军事现代化事件标题占位"
-  tnoub_chi.2.d:0 "求求来个人帮忙写文案吧"
+  tnoub_chi.2.d:0 "求求来个人帮忙写文案吧 这里是占位符"
   tnoub_chi.2.a:0 "军事现代化事件按钮占位"
+  tnoub_chi.2.a.tt:0 "§Y我们将继续现代化计划！§!"
 
   tnoub_chi.3.t:0 "中国再武装事件标题占位"
-  tnoub_chi.3.d:0 "求求来个人帮忙写文案吧"
+  tnoub_chi.3.d:0 "求求来个人帮忙写文案吧 这里是占位符"
   tnoub_chi.3.a:0 "中国再武装事件按钮占位"
+  tnoub_chi.3.a.tt:0 "§Y我们将秘密实现中国再武装！§!"
 
-  tnoub_chi.4.t:0 "掩饰我方目的事件标题占位"
-  tnoub_chi.4.d:0 "求求来个人帮忙写文案吧"
-  tnoub_chi.4.a:0 "掩饰我方目的事件按钮占位"
+  tnoub_chi.4.t:0 "日本对华限制事件标题占位"
+  tnoub_chi.4.d:0 "求求来个人帮忙写文案吧 这里是占位符"
+  tnoub_chi.4.a:0 "日本对华限制事件按钮占位"
+  tnoub_chi.4.a.tt:0 "§R我们的行动引起了日本人的怀疑！§!"
+
+  tnoub_chi.5.t:0 "掩饰我方目的事件标题占位"
+  tnoub_chi.5.d:0 "求求来个人帮忙写文案吧 这里是占位符"
+  tnoub_chi.5.a:0 "掩饰我方目的事件按钮占位"
 
 
-########################################################################
-# MILITARY TREE - LETS REFORM MILITARY AND PREPARE FIGHT AGAINST JAPAN #
-########################################################################
+####################################
+# FOCUS LOCALISATION  |  国策本地化 #
+####################################
+
+
+#### Military Tree | 军事现代化国策 ####
+
   CHI_Military:0 "军事"
   CHI_Military_desc:0 "占位符" #占位符，待填充
+  CHI_Military_tt:0 "§Y我们将会发起一系列计划来实现中国的再军事化。§!\n\n§M在§!§Y决议§!§M中新增一项推进我国§!§Y军事化§!§M的机制。§!"
+  CHI_Hiding_Our_Interests:0 "掩饰我方目的"
+  CHI_Hiding_Our_Interests_desc:0 "占位符"
+  CHI_Hiding_our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
+  CHI_Weapons_Cache:0 "藏匿武器"
+  CHI_Weapons_Cache_desc:0 "占位符"
+  CHI_Weapons_Cache_TT:0 "§R我们将继续秘密囤积武器。§!\n"
   CHI_Military_Industrial_Standard_Design:0 "军工标准设计"
   CHI_Military_Industrial_Standard_Design_desc:0 "占位符"
+  CHI_Military_Industrial_Standard_Design_tt:0 "我们将会以建设§O民用工厂§!的名义建设大量§R特殊设计§!的工厂，这些工厂可以在§R战时§!迅速改造为§G军用工厂§!！"
   CHI_Dig_Deep_Hole:0 "深挖洞"
   CHI_Dig_Deep_Hole_desc:0 "占位符"
   CHI_Wide_Accumulate_Grain:0 "广积粮"
@@ -118,10 +149,7 @@
   CHI_Waking_the_Tiger:0 "唤醒猛虎"
   CHI_Waking_the_Tiger_desc:0 "占位符"
 
-  CHI_Hiding_Our_Interests:0 "掩饰我方目的"
-  CHI_Hiding_Our_Interests_desc:0 "占位符"
-  CHI_Weapons_Cache:0 "藏匿武器"
-  CHI_Weapons_Cache_desc:0 "占位符"
+
   CHI_Protecting_Japanese_interests:0 "保护日本的利益"
   CHI_Protecting_Japanese_interests_desc:0 "占位符"
   CHI_Buying_TC:0 "购买鱼雷艇"
@@ -151,8 +179,6 @@
   CHI_Break_the_Agreements:0 "撕毁条约"
   CHI_Break_the_Agreements_desc:0 "占位符"
 
-  CHI_Hiding_our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
-  CHI_Weapons_Cache_TT:0 "§R我们将继续秘密囤积武器。§!\n"
   CHI_Protecting_Japanese_interests_TT:0 "§R日本正在寻求我们的支持，回报是同意我们有限的再军事化。§!\n§G显著地§!降低§R帝国陆军警惕度§!。\n"
   chi.Nagasaki_Summit_AcceptJapan.tt:0 "§R我们将度过更艰险的难关…§!"
   chi.Nagasaki_Summit_Middle.tt:0 "§R这能有多难？§!"
@@ -179,9 +205,9 @@
   chi_invitegermans_tt:0 "."
   chi_inviteamericans_tt:0 "."
 
-###########################################################
-# GREAT ASIAN WAR - MAIN TREE - PUT JAPANESES INTO SEA!!! #
-###########################################################
+
+#### Great Asain War Tree | 大东亚战争国策 ####
+
   CHI_War:0 "战争开始了！"
   CHI_War_desc:0 "日本鬼子来了——他们向我们宣战了！一场新的伟大的民族斗争开始了，一场将决定中国和东亚的命运的战争。只有一方能活着走出战壕，而我们必将取得胜利！前进，为了胜利！"
   CHI_A_War_Cabinet:0 "战时内阁"
@@ -243,10 +269,14 @@
 
 
 
-####  Decision  ####
+#######################################
+# DECISION LOCALISATION  |  决议本地化 #
+#######################################
 
   tnoub_debug_set_great_asain_war_china_victory:0 "调试：大东亚战争-中国胜利"
   tnoub_debug_set_great_asain_war_china_victory_desc:0 "让高总统不再罕见！"
+
+  ####  Remilitarization Decision | 中国再武装决议  ####
 
   CHI_Remilitarization_category:0 "中国再武装"
   CHI_Remilitarization_category_desc:0 "在我们再武装化的伟大过程中，我们的前进道路将面临不同的重大抉择。但重要的是要注意的不仅仅是在立法院虎视眈眈的§R派系§!，还有§R日本帝国陆军§!他们的手紧紧握着武器，注视着我们的重整军备之路。我们不能让这两个中的任何一个注意到我们的行动。\n\n当前的§R帝国陆军警惕等级§!为[CHI.GetIJAalert]。\n"
@@ -275,6 +305,9 @@
   CHI_look_into_nuclear:0 "研究核技术"
   CHI_mining_op:0 "开采沿海地区"
   CHI_smuggle_in_designs:0 "走私缩微胶片设计图"
+
+  ####  Hiding Our Interests Decision | 掩饰我方目的决议  ####
+
   CHI_Hiding_Our_Interests_Category:0 "掩饰我方目的"
   CHI_Hiding_Our_Interests_Category_desc:0 "我们目前处于限制之下，军队被禁止储存过量的轻武器。然而就像内战时期那样，我们可以狡猾地隐藏我们的真正实力，这样日本就没有任何理由怀疑我们了。"
   the_jiangsu_cache:0 "江苏秘密仓库"
@@ -293,22 +326,24 @@
   the_yunnan_cache_desc:0 "占位符"
   the_fujian_cache:0 "福建秘密仓库"
   the_fujian_cache_desc:0 "占位符"
-  tap_jiangsu:0 "打开江苏秘密仓库"
-  tap_jiangsu_desc:0 "现在是我们的时代了！中国万岁！"
-  tap_jiangxi:0 "打开江西秘密仓库"
-  tap_jiangxi_desc:0 "他们肯定不会知道是谁在搞他们！"
-  tap_changde:0 "打开常德秘密仓库"
-  tap_changde_desc:0 "我们的事业少不了这些武器。"
-  tap_shijiazhuang:0 "打开石家庄秘密仓库"
-  tap_shijiazhuang_desc:0 "向北进发！击退侵略者！夺回满洲！"
-  tap_wuhan:0 "打开武汉秘密仓库"
-  tap_wuhan_desc:0 "占位符"
-  tap_chongqing:0 "打开重庆秘密仓库"
-  tap_chongqing_desc:0 "占位符"
-  tap_yunnan:0 "打开滇边秘密仓库"
-  tap_yunnan_desc:0 "占位符"
-  tap_fujian:0 "打开福建秘密仓库"
-  tap_fujian_desc:0 "占位符"
+  cache_weapon_in_jiangsu:0 "在江苏秘密仓库藏匿武器"
+  cache_weapon_in_jiangsu_desc:0 "占位符"
+  cache_weapon_in_jiangxi:0 "在江西秘密仓库藏匿武器"
+  cache_weapon_in_jiangxi_desc:0 "占位符"
+  cache_weapon_in_changde:0 "在常德秘密仓库藏匿武器"
+  cache_weapon_in_changde_desc:0 "占位符"
+  cache_weapon_in_shijiazhuang:0 "在石家庄秘密仓库藏匿武器"
+  cache_weapon_in_shijiazhuang_desc:0 "占位符"
+  cache_weapon_in_wuhan:0 "在武汉秘密仓库藏匿武器"
+  cache_weapon_in_wuhan_desc:0 "占位符"
+  cache_weapon_in_chongqing:0 "在重庆秘密仓库藏匿武器"
+  cache_weapon_in_chongqing_desc:0 "占位符"
+  cache_weapon_in_yunnan:0 "在滇边秘密仓库藏匿武器"
+  cache_weapon_in_yunnan_desc:0 "占位符"
+  cache_weapon_in_fujian:0 "在福建秘密仓库藏匿武器"
+  cache_weapon_in_fujian_desc:0 "占位符"
+
+  ####  The Ministry Chinese Affairs Decision | 中国事务部决议  ####
 
   CHI_The_MinistryChineseAffairs_category:0 "中国事务部"
   CHI_The_MinistryChineseAffairs_category_desc:0 "守卫中国边境！"
@@ -323,7 +358,22 @@
   CHI_Begin_Operations_In_Thailand:0 "解开曼谷之结"
   CHI_Appeal_To_Their_King:0 "呼吁拉玛国王"
 
-#### tt ####
+  ####  Great Asian War Decision | 大东亚战争决议  ####
 
-  tnoub_chi.1.a.tt:0 "§R为了中国的未来！§!"
-  tnoub_chi.2.a.tt:0 "§Y我们将继续现代化计划！§!"
+  tap_jiangsu:0 "打开江苏秘密仓库"
+  tap_jiangsu_desc:0 "现在是我们的时代了！中国万岁！"
+  tap_jiangxi:0 "打开江西秘密仓库"
+  tap_jiangxi_desc:0 "他们肯定不会知道是谁在搞他们！"
+  tap_changde:0 "打开常德秘密仓库"
+  tap_changde_desc:0 "我们的事业少不了这些武器。"
+  tap_shijiazhuang:0 "打开石家庄秘密仓库"
+  tap_shijiazhuang_desc:0 "向北进发！击退侵略者！夺回满洲！"
+  tap_wuhan:0 "打开武汉秘密仓库"
+  tap_wuhan_desc:0 "继承国父孙中山先生的意志！驱逐鞑虏，恢复中华！"
+  tap_chongqing:0 "打开重庆秘密仓库"
+  tap_chongqing_desc:0 "带着蒋委员长的遗愿战斗下去！"
+  tap_yunnan:0 "打开滇边秘密仓库"
+  tap_yunnan_desc:0 "占位符"
+  tap_fujian:0 "打开福建秘密仓库"
+  tap_fujian_desc:0 "占位符"
+

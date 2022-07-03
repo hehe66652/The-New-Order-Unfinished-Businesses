@@ -55,11 +55,12 @@ country_event = { #Remilitarization Decisions
 		custom_effect_tooltip = tnoub_chi.3.a.tt
 		hidden_effect = {
 			set_country_flag = TNOUB_CHI_Remilitarization
+			set_variable = { ija_alert = 0.00 }
 		}
 	}
 }
 
-country_event = { #Hiding Our Interests Decisions
+country_event = { #get idea
 	id = tnoub_chi.4
 	title = tnoub_chi.4.t
 	desc = tnoub_chi.4.d
@@ -70,6 +71,23 @@ country_event = { #Hiding Our Interests Decisions
 	option = {
 		name = tnoub_chi.4.a
 		custom_effect_tooltip = tnoub_chi.4.a.tt
+		hidden_effect = {
+			add_ideas = CHI_japan_on_alert
+		}
+	}
+}
+
+country_event = { #Hiding Our Interests Decisions
+	id = tnoub_chi.5
+	title = tnoub_chi.5.t
+	desc = tnoub_chi.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.5.a
+		custom_effect_tooltip = tnoub_chi.5.a.tt
 		hidden_effect = {
 			set_country_flag = TNOUB_CHI_Hiding_Our_Interests
 		}

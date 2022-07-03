@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		CHI_japan_on_alert = {
+
+			allowed = {
+				original_tag = CHI
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea CHI_japan_on_alert"
+			}
+
+			removal_cost = -1
+
+			picture = CHI_
+
+			modifier = {
+				
+			}
+		}
+    }
+}

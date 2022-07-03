@@ -345,7 +345,7 @@ CHI_Remilitarization_category = {
 	}
 
 	debug_militarizationdecison = {
-		icon = GFX_COG_invitation_decision
+		icon = GFX_decision_generic_industry
 
 		allowed = {
 			original_tag = CHI
@@ -366,7 +366,7 @@ CHI_Remilitarization_category = {
 		}
 	}
 	debug_militarizationdecisondown = {
-		icon = GFX_COG_invitation_decision
+		icon = GFX_decision_generic_industry
 
 		allowed = {
 			original_tag = CHI
@@ -523,6 +523,158 @@ CHI_Hiding_Our_Interests_Category = {
 		}
 		visible = {
 			
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_jiangsu = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_jiangxi = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_chengde = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_shijiazhuang = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_wuhan = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_chongqing = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_yunnan = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		days_re_enable = 5
+		days_remove = 5
+		cost = 75
+		fire_only_once = yes
+	}
+
+	cache_weapon_in_fujian = {
+		icon = GFX_
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			check_variable = { CHI_allow_cache_weapon = 1 }
 		}
 		available = {
 			CHI_is_not_in_crisis = yes
