@@ -52,7 +52,7 @@
 #######################################
 
   CHI_japan_on_alert:0 "日本警惕"
-  CHI_japan_on_alert_desc:0 "占位符"
+  CHI_japan_on_alert_desc:0 "在实现中国挣脱日本枷锁的最后一步中，我们绝不能粗心大意。中国的再武装必须小心翼翼地进行，如果东京发现了我们计划，那么我们为中国的自由而付出的一切都将功亏一篑。"
 
 ####################################
 # EVENT LOCALISATION  |  事件本地化 #
@@ -63,24 +63,24 @@
   tnoub_chi.1.a:0 "占位"
   tnoub_chi.1.a.tt:0 "§R为了中国的未来！§!"
 
-  tnoub_chi.2.t:0 "军事现代化事件标题占位"
+  tnoub_chi.2.t:0 "磨砺利爪"
   tnoub_chi.2.d:0 "求求来个人帮忙写文案吧 这里是占位符"
   tnoub_chi.2.a:0 "军事现代化事件按钮占位"
   tnoub_chi.2.a.tt:0 "§Y我们将继续现代化计划！§!"
 
-  tnoub_chi.3.t:0 "中国再武装事件标题占位"
+  tnoub_chi.3.t:0 "乳虎啸谷"
   tnoub_chi.3.d:0 "求求来个人帮忙写文案吧 这里是占位符"
   tnoub_chi.3.a:0 "中国再武装事件按钮占位"
   tnoub_chi.3.a.tt:0 "§Y我们将秘密实现中国再武装！§!"
 
-  tnoub_chi.4.t:0 "日本对华限制事件标题占位"
-  tnoub_chi.4.d:0 "求求来个人帮忙写文案吧 这里是占位符"
-  tnoub_chi.4.a:0 "日本对华限制事件按钮占位"
+  tnoub_chi.4.t:0 "东京不满"
+  tnoub_chi.4.d:0 "我们对最近的生产和训练计划的保密工作似乎有些轻视了，宪兵队将派遣稽查组前来督察，我们得好好应付这些狗东西了。此外，生产和训练也得稍稍搁置一下，务必不能打草惊蛇。"
+  tnoub_chi.4.a:0 "该死，今天的训练到此结束"
   tnoub_chi.4.a.tt:0 "§R我们的行动引起了日本人的怀疑！§!"
 
-  tnoub_chi.5.t:0 "掩饰我方目的事件标题占位"
-  tnoub_chi.5.d:0 "求求来个人帮忙写文案吧 这里是占位符"
-  tnoub_chi.5.a:0 "掩饰我方目的事件按钮占位"
+  tnoub_chi.5.t:0 "瞒天过海"
+  tnoub_chi.5.d:0 "通过打点这些狮子大开口的日本宪兵，并且向他们展示了最近发生的武器损耗和丢失案件后，我们成功地让东京方面相信我们忠心耿耿而且军纪涣散。只是被这些日本鬼子狠狠敲了一笔，但是只要能把这些狗东西从中国赶走，多少钱都是小数目。"
+  tnoub_chi.5.a:0 "本金、利息以后再收"
 
 
 ####################################
@@ -94,28 +94,28 @@
   CHI_Military_desc:0 "占位符" #占位符，待填充
   CHI_Military_tt:0 "§Y我们将会发起一系列计划来实现中国的再军事化。§!\n\n§M在§!§Y决议§!§M中新增一项推进我国§!§Y军事化§!§M的机制。§!"
   CHI_Hiding_Our_Interests:0 "掩饰我方目的"
-  CHI_Hiding_Our_Interests_desc:0 "占位符"
+  CHI_Hiding_Our_Interests_desc:0 "在中国，一支“军纪涣散”的军队倒卖武器、中国生产的“劣质武器”在训练中损耗也是很正常的事吧。通过这些手段，我们可以将我们秘密生产的武器洗白来规避东京的检查。"
   CHI_Hiding_our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
   CHI_Weapons_Cache:0 "藏匿武器"
-  CHI_Weapons_Cache_desc:0 "占位符"
+  CHI_Weapons_Cache_desc:0 "秘密生产的武器总得有个去处，防空洞、军营和工厂地下、深山老林这些都将是我们藏匿武器的良好选择，当那一天来临时，这些秘密囤积的军火将成为我们迅速扩军的有效保障。"
   CHI_Weapons_Cache_TT:0 "§R我们将继续秘密囤积武器。§!\n"
   CHI_Military_Industrial_Standard_Design:0 "军工标准设计"
-  CHI_Military_Industrial_Standard_Design_desc:0 "占位符"
+  CHI_Military_Industrial_Standard_Design_desc:0 "军用品和民用品能有多大差距呢？生产化肥的工厂也可以来生产炸药，生产汽车的工厂也可以来生产坦克装甲车，生产罐头的工厂也可以来生产军粮。战端一开，所有的工业都应该被动员起来为前线服务，因此我们将建设一批特殊设计的工厂，它们很容易在战时转产生产我们需要的物资。"
   CHI_Military_Industrial_Standard_Design_tt:0 "我们将会以建设§O民用工厂§!的名义建设大量§R特殊设计§!的工厂，这些工厂可以在§R战时§!迅速改造为§G军用工厂§!！"
   CHI_Dig_Deep_Hole:0 "深挖洞"
-  CHI_Dig_Deep_Hole_desc:0 "占位符"
-  CHI_Wide_Accumulate_Grain:0 "广积粮"
+  CHI_Dig_Deep_Hole_desc:0 "我们无力建设一支能全面对抗日本的空军，因此我们工厂很有可能遭到日本的大规模空袭。为了尽可能减少轰炸遭到的损失，我们将大规模修建防空设施和人防设施，来尽可能减少我们遭到的损失。"
+  CHI_Wide_Accumulate_Grain:0 "当我们和日本撕破脸皮后，我们有些需要进口的重要物资获取难度将大幅提升。因此，我们在战前必须尽可能地做好最坏地打算，尽可能在不引起怀疑地情况下多囤积物资。"
   CHI_Wide_Accumulate_Grain_desc:0 "占位符"
   CHI_Introducing_Foreign_Design:0 "引进外国设计"
-  CHI_Introducing_Foreign_Design_desc:0 "占位符"
+  CHI_Introducing_Foreign_Design_desc:0 "在等待我们自行设计的武器正式服役前，我们可以向其他的国家购买一些生产许可，来武装我们的军队。"
   CHI_Military_Doctrine:0 "军事政策"
-  CHI_Dig_Deep_Hole_desc:0 "占位符"
+  CHI_Dig_Deep_Hole_desc:0 "一支军队要怎么打仗？一支军队怎么才能打胜仗？一支军队能不能一直这样打仗？这都是问题。如果我们不能决定我们的军事战略，那我们在未来的战争中必然被动挨打。"
   CHI_New_Theory:0 "新锐理论"
-  CHI_New_Theory_desc:0 "占位符"
+  CHI_New_Theory_desc:0 "在过去十年几场改变世界格局的战争中，我们逐步发现过去屡试不爽的战略战术逐渐过时了，过去不可一世的陆战之王成了直升机的美味饲料、步兵和装甲部队面对空袭时又非常脆弱，这些都说明过去的经验解决不了今天问题，我们迫切需要理论的革新。"
   CHI_Combined_Operations:0 "多兵种协作"
-  CHI_Combined_Operations_desc:0 "占位符"
+  CHI_Combined_Operations_desc:0 "多兵种协同在过去已经应用到实践，比如坦克混编机械化和摩托化步兵，步兵混编炮兵。但是还不够，我们还能更进一步，我们将以步兵为骨干组成战斗群并配备装甲力量、野战防空部队、工程部队以及支援火力，必要时还能呼叫陆军航空兵的支援。"
   CHI_Tactical_Battle_Group:0 "战术战斗群"
-  CHI_Tactical_Battle_Group_desc:0 "占位符"
+  CHI_Tactical_Battle_Group_desc:0 "面对不同任务，部队也需要混编不同的装备，执行攻坚的战斗群我们可以编入更多的部队，并增加装甲、工程和火炮部队的比例；执行穿插的部队我们将配备更多卡车、步兵战车和装甲运兵车以及更多的工程和野战防空部队。面对不同的战斗任务我们将会灵活配置技战术装备和人员，力求获得最佳的战国。"
   CHI_CCCI:0 "指挥-控制-通信-情报"
   CHI_CCCI_desc:0 "占位符"
   CHI_Wisdom_of_The_Past:0 "古老智慧"
