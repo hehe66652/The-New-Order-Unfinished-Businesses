@@ -83,19 +83,45 @@
   tnoub_chi.5.a:0 "掩饰我方目的事件按钮占位"
 
 
+
+####  Ethnic Rebellion  |  少数民族叛乱  ####
+#很久之后的内容，一时半会用不到，只是随便写写
+
+  tnoub_chi.4000.t:0 "新疆叛乱！"
+  tnoub_chi.4000.d:0 "突厥人发动了第三次暴动！"
+  tnoub_chi.4000.a:0 "什么？！"
+  tnoub_chi.4001.t:0 "西藏叛乱！"
+  tnoub_chi.4001.d:0 "西藏政府已经宣布独立！"
+  tnoub_chi.4001.a:0 "他们在搞什么？！"
+  tnoub_chi.4002.t:0 "西北叛乱！"
+  tnoub_chi.4002.d:0 "我们的军队已经被穆斯林武装驱逐出去了！"
+  tnoub_chi.4002.a:0 "他们知不知道自己在干什么？！"
+  tnoub_chi.4003.t:0 "蒙古叛乱！"
+  tnoub_chi.4003.d:0 "蒙古已经脱离了我们的控制！"
+  tnoub_chi.4003.a:0 "到底发生了什么？！"
+  tnoub_chi.4004.t:0 "广西叛乱！"
+  tnoub_chi.4004.d:0 "壮族武装已经在各大宗族的领导下迅速组织起来！"
+  tnoub_chi.4004.a:0 "这是造反！"
+  tnoub_chi.4005.t:0 "珠人叛乱！"
+  tnoub_chi.4005.d:0 "所谓的“珠人”们已经在他们领袖的带领下发动叛乱！"
+  tnoub_chi.4005.a:0 "我们怎么他们了？"
+  tnoub_chi.4006.t:0 "台湾叛乱！"
+  tnoub_chi.4006.d:0 "台湾华人已经迅速切断了台湾岛与大陆的联系！"
+  tnoub_chi.4006.a:0 "台湾是中国不可分割的一部分！"
+
 ####################################
 # FOCUS LOCALISATION  |  国策本地化 #
 ####################################
 
 
-#### Military Tree | 军事现代化国策 ####
+####  Military Tree  |  军事现代化国策  ####
 
   CHI_Military:0 "军事"
   CHI_Military_desc:0 "占位符" #占位符，待填充
   CHI_Military_tt:0 "§Y我们将会发起一系列计划来实现中国的再军事化。§!\n\n§M在§!§Y决议§!§M中新增一项推进我国§!§Y军事化§!§M的机制。§!"
   CHI_Hiding_Our_Interests:0 "掩饰我方目的"
   CHI_Hiding_Our_Interests_desc:0 "占位符"
-  CHI_Hiding_our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
+  CHI_Hiding_our_Interests_TT:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
   CHI_Weapons_Cache:0 "藏匿武器"
   CHI_Weapons_Cache_desc:0 "占位符"
   CHI_Weapons_Cache_TT:0 "§R我们将继续秘密囤积武器。§!\n"
@@ -152,6 +178,7 @@
 
   CHI_Protecting_Japanese_interests:0 "保护日本的利益"
   CHI_Protecting_Japanese_interests_desc:0 "占位符"
+  CHI_Protecting_Japanese_interests_TT:0 "§R日本正在寻求我们的支持，回报是同意我们有限的再军事化。§!\n§G显著地§!降低§R帝国陆军警惕度§!。\n"
   CHI_Buying_TC:0 "购买鱼雷艇"
   CHI_Buying_TC_desc:0 "占位符"
   CHI_Distribution_Networks:0 "建设铁路网"
@@ -160,12 +187,16 @@
   CHI_Purchase_Spare_Parts_desc:0 "占位符"
   CHI_military_missions:0 "军事任务"
   CHI_military_missions_desc:0 "占位符"
+  CHI_military_missions_tt:0 "§R我们将邀请那些军事奇才到访我们的国家，而我们也会派出留学生出国学习。§!"
   CHI_Toe_the_line:0 "越过一个脚趾..."
   CHI_Toe_the_line_desc:0 "占位符"
+  CHI_Toe_the_line_tt:0 "§R派遣周隆庠请求日本就我国再军事化问题上作出进一步让步。§!"
   CHI_A_Step_Too_Far:0 "...但有点过了"
   CHI_A_Step_Too_Far_desc:0 "占位符"
+  CHI_A_Step_Too_Far_tt:0 "日本人断然拒绝了我们扩军的请求！"
   CHI_A_Step_In_The_Right_Direction:0 "...朝着正确的方向"
   CHI_A_Step_In_The_Right_Direction_desc:0 "占位符"
+  CHI_A_Step_In_The_Right_Direction_tt:0 "日本人允许我们扩军了！"
   CHI_Allow_Women_To_Work:0 "允许妇女工作"
   CHI_Allow_Women_To_Work_desc:0 "占位符"
   CHI_Hidden_Arsenals:0 "隐藏军火库"  #UNUSE 未使用
@@ -178,6 +209,7 @@
   CHI_Mil_Propoganda_desc:0 "占位符"
   CHI_Break_the_Agreements:0 "撕毁条约"
   CHI_Break_the_Agreements_desc:0 "占位符"
+  CHI_Break_the_Agreements_tt:0 "天杀的小日本鬼子，我们就算拼了老命也要把你们这帮狗日的畜生赶出中国！中国万岁！"
 
   CHI_Protecting_Japanese_interests_TT:0 "§R日本正在寻求我们的支持，回报是同意我们有限的再军事化。§!\n§G显著地§!降低§R帝国陆军警惕度§!。\n"
   chi.Nagasaki_Summit_AcceptJapan.tt:0 "§R我们将度过更艰险的难关…§!"
@@ -186,10 +218,8 @@
   CHI_Buying_TC_tt:0 "§R它们将成为我国海军的基石！§!\n§R略微提高帝国陆军警惕度§!。\n"
   CHI_Distribution_Networks_tt:0 "§R一旦我国所有的军火库都通过现代化的铁路连结起来，中国就将能在任意方向上采取主动防御姿态。§!"
   CHI_Purchase_Spare_Parts_tt:0 "为了进一步提升我国空军实力，我们必须在国外寻找新的部件。"
-  CHI_military_missions_tt:0 "§R我们将邀请那些军事奇才到访我们的国家，而我们也会派出留学生出国学习。§!"
-  CHI_Toe_the_line_tt:0 "§R派遣周隆庠请求日本就我国再军事化问题上作出进一步让步。§!"
-  CHI_A_Step_Too_Far_tt:0 "日本人断然拒绝了我们扩军的请求！"
-  CHI_A_Step_In_The_Right_Direction_tt:0 "日本人允许我们扩军了！"
+
+
   CHI_Allow_Women_To_Work_tt:0 "允许妇女进入工作岗位，哪怕仅让有限的岗位向妇女开放，也能为我们腾出相当的人力移作他用。"
   CHI_Hidden_Arsenals_tt:0 "我们将得到更多的选择以进一步加快我们的秘密再武装进程。"
   CHI_Disguised_Inventories_tt:0 "我们盘根错节的官僚机构是我们解放阵线的军火库中另一枚不安全的炮弹。"
@@ -201,12 +231,12 @@
   CHI_IJAAlert_Slightup_tt:0 "§R略微§!提高§R帝国陆军警惕度§!。\n"
   CHI_IJA_Alert_Slightdown_tt:0 "§G略微§!降低§R帝国陆军警惕度§!。\n"
   CHI_IJA_Alert_Significantdown_tt:0 "§G显著§!降低§R帝国陆军警惕度§!。\n"
-  CHI_Break_the_Agreements_tt:0 "天杀的小日本鬼子，我们就算拼了老命也要把你们这帮狗日的畜生赶出中国！中国万岁！"
+
   chi_invitegermans_tt:0 "."
   chi_inviteamericans_tt:0 "."
 
 
-#### Great Asain War Tree | 大东亚战争国策 ####
+####  Great Asain War Tree  |  大东亚战争国策  ####
 
   CHI_War:0 "战争开始了！"
   CHI_War_desc:0 "日本鬼子来了——他们向我们宣战了！一场新的伟大的民族斗争开始了，一场将决定中国和东亚的命运的战争。只有一方能活着走出战壕，而我们必将取得胜利！前进，为了胜利！"
@@ -276,7 +306,7 @@
   tnoub_debug_set_great_asain_war_china_victory:0 "调试：大东亚战争-中国胜利"
   tnoub_debug_set_great_asain_war_china_victory_desc:0 "让高总统不再罕见！"
 
-  ####  Remilitarization Decision | 中国再武装决议  ####
+  ####  Remilitarization Decision  |  中国再武装决议  ####
 
   CHI_Remilitarization_category:0 "中国再武装"
   CHI_Remilitarization_category_desc:0 "在我们再武装化的伟大过程中，我们的前进道路将面临不同的重大抉择。但重要的是要注意的不仅仅是在立法院虎视眈眈的§R派系§!，还有§R日本帝国陆军§!他们的手紧紧握着武器，注视着我们的重整军备之路。我们不能让这两个中的任何一个注意到我们的行动。\n\n当前的§R帝国陆军警惕等级§!为[CHI.GetIJAalert]。\n"
@@ -306,7 +336,7 @@
   CHI_mining_op:0 "开采沿海地区"
   CHI_smuggle_in_designs:0 "走私缩微胶片设计图"
 
-  ####  Hiding Our Interests Decision | 掩饰我方目的决议  ####
+  ####  Hiding Our Interests Decision  |  掩饰我方目的决议  ####
 
   CHI_Hiding_Our_Interests_Category:0 "掩饰我方目的"
   CHI_Hiding_Our_Interests_Category_desc:0 "我们目前处于限制之下，军队被禁止储存过量的轻武器。然而就像内战时期那样，我们可以狡猾地隐藏我们的真正实力，这样日本就没有任何理由怀疑我们了。"
@@ -343,7 +373,7 @@
   cache_weapon_in_fujian:0 "在福建秘密仓库藏匿武器"
   cache_weapon_in_fujian_desc:0 "占位符"
 
-  ####  The Ministry Chinese Affairs Decision | 中国事务部决议  ####
+  ####  The Ministry Chinese Affairs Decision  |  中国事务部决议  ####
 
   CHI_The_MinistryChineseAffairs_category:0 "中国事务部"
   CHI_The_MinistryChineseAffairs_category_desc:0 "守卫中国边境！"
@@ -358,7 +388,7 @@
   CHI_Begin_Operations_In_Thailand:0 "解开曼谷之结"
   CHI_Appeal_To_Their_King:0 "呼吁拉玛国王"
 
-  ####  Great Asian War Decision | 大东亚战争决议  ####
+  ####  Great Asian War Decision  |  大东亚战争决议  ####
 
   tap_jiangsu:0 "打开江苏秘密仓库"
   tap_jiangsu_desc:0 "现在是我们的时代了！中国万岁！"
