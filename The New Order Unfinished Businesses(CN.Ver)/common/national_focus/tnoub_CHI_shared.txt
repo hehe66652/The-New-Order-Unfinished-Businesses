@@ -52,7 +52,7 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Hiding_Our_Interests"
-		custom_effect_tooltip = CHI_Hiding_Our_Interests_TT
+		custom_effect_tooltip = CHI_Hiding_Our_Interests_tt
 		country_event = {
     		id = tnoub_chi.5
 		}

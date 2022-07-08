@@ -199,6 +199,8 @@ ideologies = {
 			authoritarian_democracy_provisional_government_subtype = { can_be_randomly_selected = no }
 			authoritarian_democracy_right_wing_populism_subtype = { can_be_randomly_selected = no }
 			authoritarian_democracy_xunzheng_subtype = { can_be_randomly_selected = no }
+
+			funny_ideology_dengism_subtype = { can_be_randomly_selected = no }	#Just a funny ideology
 		}
 		dynamic_faction_names = {}
 		color = { 130 130 130 }

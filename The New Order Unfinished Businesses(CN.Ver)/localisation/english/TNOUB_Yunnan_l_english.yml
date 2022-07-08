@@ -1,0 +1,25 @@
+﻿l_english:
+
+###############################################
+# COUNTRY NAME LOCALISATION  |  国家名称本地化 #
+###############################################
+  
+  YUN_Funny_Dengism_China:0 "中华人民共和国"
+  YUN_Funny_Dengism_China_DEF:0 "中华人民共和国"
+  YUN_Funny_Dengism_China_ADJ:0 "中国"
+
+
+########################################
+# PARTY LOCALISATION  |  政党名称本地化 #
+########################################
+
+  funny_dengism_cpc:0 "中国共产党"
+  funny_dengism_cpc_long:0 "中国共产党"
+
+
+############################################
+# CHARACTER LOCALISATION  |  角色名称本地化 #
+############################################
+
+  POLITICS_DENG_XIAOPING_DESC:0 "邓 噔 咚" #FUNNY DECISION
+  YUN_deng_xiaoping:0 "邓小平"

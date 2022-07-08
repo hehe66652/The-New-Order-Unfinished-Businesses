@@ -2,6 +2,9 @@
   despotism_junzheng_subtype:0 "军政"
   despotism_junzheng_subtype_desc:0 "军政介绍占位符"
   liberal_democracy_three_principles_of_the_people_subtype:0 "三民主义"
-  liberal_democracy_three_principles_of_the_people_subtype_desc:0 "温和三民主义介绍占位符"
+  liberal_democracy_three_principles_of_the_people_subtype_desc:0 "自民三民主义介绍占位符"
   social_democracy_three_principles_of_the_people_subtype:0 "三民主义"
-  social_democracy_three_principles_of_the_people_subtype_desc:0 "理想三民主义介绍占位符"
+  social_democracy_three_principles_of_the_people_subtype_desc:0 "社民三民主义介绍占位符"
+
+  funny_ideology_dengism_subtype:0 "邓小平理论"
+  funny_ideology_dengism_subtype_desc:0 "邓 噔 咚"
