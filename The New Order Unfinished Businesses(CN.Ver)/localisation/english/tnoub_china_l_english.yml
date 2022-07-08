@@ -52,7 +52,13 @@
 #######################################
 
   CHI_japan_on_alert:0 "日本警惕"
-  CHI_japan_on_alert_desc:0 "在实现中国挣脱日本枷锁的最后一步中，我们绝不能粗心大意。中国的再武装必须小心翼翼地进行，如果东京发现了我们计划，那么我们为中国的自由而付出的一切都将功亏一篑。"
+  CHI_japan_on_alert_desc:0 "在实现中国挣脱日本枷锁的最后一步中，我们绝不能粗心大意。中国的再武装必须小心翼翼地进行，如果东京发现了我们的计划，那么我们为中国的自由而付出的一切都将功亏一篑。"
+  CHI_prepare_for_total_war_1:0 "准备全面战争"
+  CHI_prepare_for_total_war_1_desc:0 "占位符"
+  CHI_prepare_for_total_war_2:0 "准备全面战争"
+  CHI_prepare_for_total_war_2_desc:0 "占位符"
+  CHI_prepare_for_total_war_3:0 "准备全面战争"
+  CHI_prepare_for_total_war_3_desc:0 "占位符"
 
 ####################################
 # EVENT LOCALISATION  |  事件本地化 #
@@ -107,7 +113,7 @@
   tnoub_chi.4005.a:0 "我们怎么他们了？"
   tnoub_chi.4006.t:0 "台湾叛乱！"
   tnoub_chi.4006.d:0 "台湾华人已经迅速切断了台湾岛与大陆的联系！"
-  tnoub_chi.4006.a:0 "台湾是中国不可分割的一部分！"
+  tnoub_chi.4006.a:0 "台湾岛是中国不可分割的一部分！"
 
 ####################################
 # FOCUS LOCALISATION  |  国策本地化 #
@@ -121,7 +127,7 @@
   CHI_Military_tt:0 "§Y我们将会发起一系列计划来实现中国的再军事化。§!\n\n§M在§!§Y决议§!§M中新增一项推进我国§!§Y军事化§!§M的机制。§!"
   CHI_Hiding_Our_Interests:0 "掩饰我方目的"
   CHI_Hiding_Our_Interests_desc:0 "在中国，一支“军纪涣散”的军队倒卖武器、中国生产的“劣质武器”在训练中损耗也是很正常的事吧。通过这些手段，我们可以将我们秘密生产的武器洗白来规避东京的检查。"
-  CHI_Hiding_our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
+  CHI_Hiding_Our_Interests_tt:0 "我们§R开拓了更多途径§R来减少日本军国主义势力§!对我们军事化行动的怀疑。§!\n"
   CHI_Weapons_Cache:0 "藏匿武器"
   CHI_Weapons_Cache_desc:0 "秘密生产的武器总得有个去处，防空洞、军营和工厂地下、深山老林这些都将是我们藏匿武器的良好选择，当那一天来临时，这些秘密囤积的军火将成为我们迅速扩军的有效保障。"
   CHI_Weapons_Cache_TT:0 "§R我们将继续秘密囤积武器。§!\n"

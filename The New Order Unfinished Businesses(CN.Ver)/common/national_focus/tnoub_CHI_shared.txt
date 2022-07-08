@@ -53,8 +53,10 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Hiding_Our_Interests"
 		custom_effect_tooltip = CHI_Hiding_Our_Interests_tt
-		country_event = {
-    		id = tnoub_chi.5
+		hidden_effect = {
+			country_event = {
+    			id = tnoub_chi.5
+			}
 		}
 	}
 }
@@ -70,6 +72,7 @@ shared_focus = {
 	x = -5
 	y = 2
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Weapons_Cache"
 		custom_effect_tooltip = CHI_Weapons_Cache_TT
 		hidden_effect = {
 			set_variable = { CHI_allow_cache_weapon = 1 }
@@ -88,6 +91,7 @@ shared_focus = {
 	x = -5
 	y = 3
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Military_Industrial_Standard_Design"
 		custom_effect_tooltip = CHI_Military_Industrial_Standard_Design_tt
 		hidden_effect = {
 			set_variable = { CHI_allow_build_military_standard_factory = 1 }
@@ -106,7 +110,8 @@ shared_focus = {
 	x = -5
 	y = 4
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Dig_Deep_Hole"
+		add_ideas = CHI_prepare_for_total_war_1
 	}
 }
 
@@ -121,7 +126,11 @@ shared_focus = {
 	x = -5
 	y = 5
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Wide_Accumulate_Grain"
+		swap_ideas = {
+    		remove_idea = CHI_prepare_for_total_war_1
+    		add_idea = CHI_prepare_for_total_war_2
+		}
 	}
 }
 
@@ -136,7 +145,7 @@ shared_focus = {
 	x = -3
 	y = 2
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Buying_TC"
 	}
 }
 
@@ -151,7 +160,7 @@ shared_focus = {
 	x = -3
 	y = 3
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Protecting_Japanese_interests"
 	}
 }
 
@@ -166,7 +175,7 @@ shared_focus = {
 	x = -3
 	y = 4
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Introducing_Foreign_Design"
 	}
 }
 
@@ -181,7 +190,7 @@ shared_focus = {
 	x = -3
 	y = 5
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Purchase_Spare_Parts"
 	}
 }
 
@@ -199,7 +208,11 @@ shared_focus = {
 	x = -4
 	y = 6
 	completion_reward = {
-		
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Distribution_Networks"
+		swap_ideas = {
+    		remove_idea = CHI_prepare_for_total_war_2
+    		add_idea = CHI_prepare_for_total_war_3
+		}
 	}
 }
 
