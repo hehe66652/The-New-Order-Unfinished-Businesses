@@ -146,6 +146,9 @@ shared_focus = {
 	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Buying_TC"
+		hidden_effect = {
+			set_variable = { CHI_allow_buying_ships = 1 }
+		}
 	}
 }
 
@@ -161,6 +164,10 @@ shared_focus = {
 	y = 3
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Protecting_Japanese_interests"
+		custom_effect_tooltip = CHI_Protecting_Japanese_interests_TT
+		hidden_effect = {
+			add_to_variable = { ija_alert = -0.25 } 
+		}
 	}
 }
 
@@ -176,6 +183,9 @@ shared_focus = {
 	y = 4
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Introducing_Foreign_Design"
+		hidden_effect = {
+			set_variable = { CHI_allow_introducing_foreign_design = 1 }
+		}
 	}
 }
 
@@ -191,6 +201,9 @@ shared_focus = {
 	y = 5
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Purchase_Spare_Parts"
+		hidden_effect = {
+			set_variable = { CHI_allow_purchase_spare_parts = 1 }
+		}
 	}
 }
 
@@ -213,6 +226,9 @@ shared_focus = {
     		remove_idea = CHI_prepare_for_total_war_2
     		add_idea = CHI_prepare_for_total_war_3
 		}
+		hidden_effect = {
+			set_variable = { CHI_allow_build_bistribution_networks = 1 }
+		}
 	}
 }
 
@@ -227,7 +243,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
-		
+		army_experience = 50
 	}
 }
 
