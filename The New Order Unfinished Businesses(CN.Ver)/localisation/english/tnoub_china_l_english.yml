@@ -177,9 +177,9 @@
   CHI_Rebuild_Training_Division:0 "重组教导总队"
   CHI_Rebuild_Training_Division_desc:0 "占位符"
   CHI_Control_Media:0 "控制媒体"
-  CHI_Control_Media_desc:0 "占位符"
+  CHI_Control_Media_desc:0 "媒体十分重要，它们不能泄露我们的机密，尤其是起义计划。我们必须控制它们，让它们做对我们有利的宣传。"
   CHI_Waking_the_Tiger:0 "唤醒猛虎"
-  CHI_Waking_the_Tiger_desc:0 "占位符"
+  CHI_Waking_the_Tiger_desc:0 "是时候让中国这头沉睡的猛虎苏醒了！"
 
 
   CHI_Protecting_Japanese_interests:0 "保护日本的利益"
@@ -188,7 +188,7 @@
   CHI_Buying_TC:0 "购买鱼雷艇"
   CHI_Buying_TC_desc:0 "占位符"
   CHI_Distribution_Networks:0 "建设铁路网"
-  CHI_Distribution_Networks_desc:0 "占位符"
+  CHI_Distribution_Networks_desc:0 "铁路关乎着军队的补给。如果没有铁路，我们的军队无法对敌军造成杀伤。"
   CHI_Purchase_Spare_Parts:0 "购买备件"
   CHI_Purchase_Spare_Parts_desc:0 "占位符"
   CHI_military_missions:0 "军事任务"
