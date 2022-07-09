@@ -149,7 +149,7 @@
   CHI_Tactical_Battle_Group:0 "战术战斗群"
   CHI_Tactical_Battle_Group_desc:0 "面对不同任务，部队也需要混编不同的装备，执行攻坚的战斗群我们可以编入更多的部队，并增加装甲、工程和火炮部队的比例；执行穿插的部队我们将配备更多卡车、步兵战车和装甲运兵车以及更多的工程和野战防空部队。面对不同的战斗任务我们将会灵活配置技战术装备和人员，力求获得最佳的战国。"
   CHI_CCCI:0 "指挥-控制-通信-情报"
-  CHI_CCCI_desc:0 "占位符"
+  CHI_CCCI_desc:0 "我们必须要：\n1.完全指挥军队\n2.控制战场\n3.保持通信\n4.拥有情报"
   CHI_Wisdom_of_The_Past:0 "古老智慧"
   CHI_Wisdom_of_The_Past_desc:0 "占位符"
   CHI_Fully_Prepared:0 "百密无疏"
