@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_CHI_Military"
+		texturefile = "gfx/interface/goals/CHI_Military.dds"
+	}
+}

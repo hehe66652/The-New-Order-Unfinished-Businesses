@@ -15,7 +15,7 @@
 
 shared_focus = {
 	id = CHI_Military
-	icon = GFX_
+	icon = GFX_CHI_Military
 	cost = 0.00
 	allow_branch = {
 		has_country_flag = tnoub_chi_remaining_modernization
@@ -227,7 +227,7 @@ shared_focus = {
     		add_idea = CHI_prepare_for_total_war_3
 		}
 		hidden_effect = {
-			set_variable = { CHI_allow_build_bistribution_networks = 1 }
+			set_variable = { CHI_allow_build_distribution_networks = 1 }
 		}
 	}
 }
@@ -261,7 +261,11 @@ shared_focus = {
 	x = -1
 	y = 2
 	completion_reward = {
-		
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		technology = combined_operations army_interoperability support_companies artillery_barrage tactical_support tactical_support preemptive_strike
+		}
 	}
 }
 
@@ -276,7 +280,7 @@ shared_focus = {
 	x = -1
 	y = 3
 	completion_reward = {
-		
+		add_ideas = CHI_new_theory_1
 	}
 }
 
@@ -291,7 +295,10 @@ shared_focus = {
 	x = -1
 	y = 4
 	completion_reward = {
-		
+		swap_ideas = {
+    		remove_idea = CHI_new_theory_1
+    		add_idea = CHI_new_theory_2
+		}
 	}
 }
 
@@ -306,7 +313,10 @@ shared_focus = {
 	x = -1
 	y = 5
 	completion_reward = {
-		
+		swap_ideas = {
+    		remove_idea = CHI_new_theory_2
+    		add_idea = CHI_new_theory_3
+		}
 	}
 }
 
@@ -324,7 +334,11 @@ shared_focus = {
 	x = 1
 	y = 2
 	completion_reward = {
-		
+		add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		technology = strategic_theorem
+		}
 	}
 }
 
@@ -339,7 +353,7 @@ shared_focus = {
 	x = 1
 	y = 3
 	completion_reward = {
-		
+		add_ideas = CHI_wisdom_of_the_past_1
 	}
 }
 
@@ -354,7 +368,10 @@ shared_focus = {
 	x = 1
 	y = 4
 	completion_reward = {
-		
+		swap_ideas = {
+    		remove_idea = CHI_wisdom_of_the_past_1
+    		add_idea = CHI_wisdom_of_the_past_2
+		}
 	}
 }
 
@@ -369,7 +386,10 @@ shared_focus = {
 	x = 1
 	y = 5
 	completion_reward = {
-		
+		swap_ideas = {
+    		remove_idea = CHI_wisdom_of_the_past_2
+    		add_idea = CHI_wisdom_of_the_past_3
+		}
 	}
 }
 
