@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	### Hiding Our Interests GUI ##
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_map"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_map.dds"
+	}
+
+    spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_point_unbuild.dds"
+	}
+    spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_point_build.dds"
+	}
+}

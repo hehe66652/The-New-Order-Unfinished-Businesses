@@ -1,0 +1,95 @@
+guiTypes = {  
+	# 
+	containerWindowType = {
+		name = "TNOUB_CHI_Hiding_Our_Interests_GUI"
+		size = { width = 510 height = 650 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_map"
+			position = { x = 0 y = 20 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_map"
+		}
+
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 435 y = 185 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 435 y = 185 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangxi_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 360 y = 300 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangxi_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 360 y = 300 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_changde_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 280 y = 270 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_changde_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 280 y = 270 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_shijiazhuang_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 355 y = 60 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_shijiazhuang_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 355 y = 60 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_wuhan_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 350 y = 240 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_wuhan_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 350 y = 240 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_chongqing_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 180 y = 260 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_chongqing_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 180 y = 260 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_yunnan_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 65 y = 400 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_yunnan_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 65 y = 400 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_fujian_point_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
+			position = { x = 410 y = 340 }
+		}
+        buttonType = {
+			name = "CHI_Hiding_Our_Interests_GUI_fujian_point_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
+			position = { x = 410 y = 340 }
+		}
+    }
+}

@@ -1,0 +1,110 @@
+scripted_gui = {
+	TNOUB_CHI_Hiding_Our_Interests_GUI = { 
+		context_type = decision_category
+		window_name = "TNOUB_CHI_Hiding_Our_Interests_GUI"
+		dirty = TNOUB_CHI_Hiding_Our_Interests_GUI_dirty
+		visible = {
+			tag = CHI
+		}
+
+        triggers = {
+            CHI_Hiding_Our_Interests_GUI_jiangsu_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_jiangsu_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_jiangxi_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_jiangxi_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_changde_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_changde_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_shijiazhuang_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_shijiazhuang_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_wuhan_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_wuhan_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_chongqing_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_chongqing_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_yunnan_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_yunnan_point_build
+                    }
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_fujian_point_unbuild_visible = {
+				hidden_trigger = {
+                    NOT = {
+                        has_country_flag = CHI_fujian_point_build
+                    }
+				}
+			}
+
+			CHI_Hiding_Our_Interests_GUI_jiangsu_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_jiangsu_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_jiangxi_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_jiangxi_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_changde_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_changde_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_shijiazhuang_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_shijiazhuang_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_wuhan_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_wuhan_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_chongqing_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_chongqing_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_yunnan_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_yunnan_point_build
+				}
+			}
+            CHI_Hiding_Our_Interests_GUI_fujian_point_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_fujian_point_build
+				}
+			}
+        }
+    }
+}

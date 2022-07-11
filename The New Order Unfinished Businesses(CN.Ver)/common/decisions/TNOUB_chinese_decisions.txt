@@ -406,6 +406,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_jiangsu_point_build
+		}
 	}
 	the_jiangxi_cache = {
 		icon = GFX_
@@ -424,6 +428,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_jiangxi_point_build
+		}
 	}
 	the_changde_cache = {
 		icon = GFX_
@@ -442,6 +450,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_changde_point_build
+		}
 	}
 	the_shijiazhuang_cache = {
 		icon = GFX_
@@ -460,6 +472,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_shijiazhuang_point_build
+		}
 	}
 	the_wuhan_cache = {
 		icon = GFX_
@@ -478,6 +494,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_wuhan_point_build
+		}
 	}
 	the_chongqing_cache = {
 		icon = GFX_
@@ -496,6 +516,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_chongqing_point_build
+		}
 	}
 	the_yunnan_cache = {
 		icon = GFX_
@@ -514,6 +538,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_yunnan_point_build
+		}
 	}
 	the_fujian_cache = {
 		icon = GFX_
@@ -532,6 +560,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_remove = 5
 		cost = 75
 		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = CHI_fujian_point_build
+		}
 	}
 
 	cache_weapon_in_jiangsu = {

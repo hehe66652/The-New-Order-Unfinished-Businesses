@@ -1,6 +1,26 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_despotism_junzheng_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_junzheng_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_three_principles_of_the_people_subtype"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_three_principles_of_the_people_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_social_democracy_three_principles_of_the_people_subtype"
+		texturefile = "gfx/interface/ideologies/social_democracy_three_principles_of_the_people_subtype.dds"
+	}
+
+
+	
+
     spriteType = {
 		name = "GFX_ideology_funny_ideology_dengism_subtype"
 		texturefile = "gfx/interface/ideologies/funny_ideology_dengism_subtype.dds"
 	}
+
 }

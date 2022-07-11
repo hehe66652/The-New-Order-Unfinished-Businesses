@@ -187,6 +187,10 @@ defined_text = {
 		localization_key = social_democracy_social_radicalism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = social_democracy_three_principles_of_the_people_subtype }
+		localization_key = social_democracy_three_principles_of_the_people_subtype
+	}
+	text = {
 		localization_key = social_democracy
 	}
 }
@@ -212,6 +216,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = liberal_democracy_market_liberalism_subtype }
 		localization_key = liberal_democracy_market_liberalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_democracy_three_principles_of_the_people_subtype }
+		localization_key = liberal_democracy_three_principles_of_the_people_subtype
 	}
 	text = {
 		localization_key = liberal_democracy
@@ -399,6 +407,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = despotism_national_catholicism_subtype }
 		localization_key = despotism_national_catholicism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_junzheng_subtype }
+		localization_key = despotism_junzheng_subtype
 	}
 	text = {
 		localization_key = despotism

@@ -12,4 +12,6 @@ CHI_Hiding_Our_Interests_Category = {	#掩饰我方目的
 	visible = {
 		has_country_flag = TNOUB_CHI_Hiding_Our_Interests
 	}
+
+	scripted_gui = TNOUB_CHI_Hiding_Our_Interests_GUI
 }

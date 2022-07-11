@@ -90,6 +90,14 @@ country_event = { #Hiding Our Interests Decisions
 		custom_effect_tooltip = tnoub_chi.5.a.tt
 		hidden_effect = {
 			set_country_flag = TNOUB_CHI_Hiding_Our_Interests
+			set_country_flag = CHI_jiangsu_point_unbuild
+			set_country_flag = CHI_jiangxi_point_unbuild
+			set_country_flag = CHI_chengde_point_unbuild
+			set_country_flag = CHI_shijiazhuang_point_unbuild
+			set_country_flag = CHI_wuhan_point_unbuild
+			set_country_flag = CHI_chongqing_point_unbuild
+			set_country_flag = CHI_yunnan_point_unbuild
+			set_country_flag = CHI_fujian_point_unbuild
 		}
 	}
 }
