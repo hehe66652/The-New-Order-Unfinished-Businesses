@@ -74,12 +74,12 @@ guiTypes = {
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_yunnan_point_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
-			position = { x = 65 y = 400 }
+			position = { x = 65 y = 410 }
 		}
         buttonType = {
 			name = "CHI_Hiding_Our_Interests_GUI_yunnan_point_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
-			position = { x = 65 y = 400 }
+			position = { x = 65 y = 410 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_fujian_point_unbuild"
@@ -90,6 +90,18 @@ guiTypes = {
 			name = "CHI_Hiding_Our_Interests_GUI_fujian_point_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
 			position = { x = 410 y = 340 }
+		}
+
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_yunnan_line"
+			position = { x = 0 y = 410 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_yunnan_line"
+		}
+
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_flame"
+			position = { x = 0 y = 520 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
 		}
     }
 }

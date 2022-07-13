@@ -14,4 +14,15 @@ spriteTypes = {
 		name = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
 		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_point_build.dds"
 	}
+
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_yunnan_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_yunnan_line.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_flame.dds"
+	}
 }
