@@ -43,8 +43,8 @@
   FOR_CHI_autonomous_region_DEF:0 "台湾自治省"
   FOR_CHI_autonomous_region_ADJ:0 "中国台湾"
 
-  GNG_CHI_autonomous_region:0 "广澳港自治区"
-  GNG_CHI_autonomous_region_DEF:0 "广州-澳门-香港自治区"
+  GNG_CHI_autonomous_region:0 "广澳港特别行政区"
+  GNG_CHI_autonomous_region_DEF:0 "广州-澳门-香港特别行政区"
   GNG_CHI_autonomous_region_ADJ:0 "中国广澳港"
 
 #######################################
@@ -184,7 +184,7 @@
   CHI_Waking_the_Tiger_desc:0 "是时候让中国这头沉睡的猛虎苏醒了！"
 
 
-  CHI_Protecting_Japanese_interests:0 "保护日本的利益"
+  CHI_Protecting_Japanese_interests:0 "维护日本利益"
   CHI_Protecting_Japanese_interests_desc:0 "也许我们可以瞒过日本人一次两次，但我们不可能永远地欺骗下去。与其让日本陆军暨宪兵队在日后兴师问罪，不如主动迎合他们的心意。反正这群武士索取的无非是忠诚和利益，只要我们积极配合他们的行动，便有机会将部分事宜落落大方地摆在明面进行。毕竟，再冷峻的主子也不能不给“忠犬”一点奖赏。"
   CHI_Protecting_Japanese_interests_TT:0 "§R日本正在寻求我们的支持，回报是同意我们有限的再军事化。§!\n§G显著地§!降低§R帝国陆军警惕度§!。\n"
   CHI_Buying_TC:0 "购买鱼雷艇"
@@ -326,7 +326,7 @@
   CHI_mission_to_germany:0 "前往德国的使团"
   CHI_mission_to_vietnam:0 "前往越南的使团"
   CHI_mission_to_thailand:0 "前往泰国的使团"
-  CHI_invite_germans:0 "邀请德军顾问"
+  CHI_invite_germans:0 "邀请前德军顾问"
   CHI_invite_italians:0 "邀请前意大利海军舰长"
   CHI_invite_americans:0 "邀请退休美国飞行员"
   CHI_Purchase_from_Zaibatsus:0 "从三菱集团购买发动机"
