@@ -1,2 +1,30 @@
+#Update logs
 #每个版本更新，在此记录。
-0.1:高宗武拓展（正在制作）
+0.1:Gao Zongwu's Unfinished Businesses-Part 1(In-Dev)
+·Republic of China [Med]
+    ·The Military Modernization
+    ·Reunification of China
+    ·The Great Asian War of Gao Zongwu
+·Japan [Short]
+    ·Oil Crisis Tree Rework
+    ·GAW decisions and focus tree
+·Nations across the CPS
+0.1:高宗武的未竟之事-第一部分（开发中）
+·中华民国 [中]
+    ·军事现代化
+    ·中国再统一
+    ·高宗武的大东亚战争
+·日本 [短]
+    ·石油危机国策树重制
+    ·大东亚战争中的决议与国策树
+·共荣圈诸国
+
+0.2:The White Sun Rise Again(Future)
+·Yunnan Clique [Med]
+    ·China After GAW
+    ·Xunzheng
+    ·Xianzheng
+0.2:白日初升（开发中）
+·滇系军阀 [中]
+    ·训政
+    ·宪政

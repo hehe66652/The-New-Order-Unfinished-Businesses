@@ -16,8 +16,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_jiangsu_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_jiangsu_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_jiangxi_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_jiangxi_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_changde_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_changde_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_shijiazhuang_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_shijiazhuang_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_wuhan_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_wuhan_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_chongqing_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_chongqing_line.dds"
+	}
+	spriteType = {
 		name = "GFX_CHI_Hiding_Our_Interests_GUI_yunnan_line"
 		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_yunnan_line.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_fujian_line"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_fujian_line.dds"
 	}
 
 

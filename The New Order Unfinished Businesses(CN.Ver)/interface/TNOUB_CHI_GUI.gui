@@ -11,6 +11,48 @@ guiTypes = {
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_map"
 		}
 
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_line"
+			position = { x = 435 y = 185 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_jiangsu_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_jiangxi_line"
+			position = { x = 305 y = 300 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_jiangxi_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_changde_line"
+			position = { x = 220 y = 270 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_changde_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_shijiazhuang_line"
+			position = { x = 290 y = 60 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_shijiazhuang_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_wuhan_line"
+			position = { x = 305 y = 240 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_wuhan_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_chongqing_line"
+			position = { x = 180 y = 260 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_chongqing_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_yunnan_line"
+			position = { x = 0 y = 410 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_yunnan_line"
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_fujian_line"
+			position = { x = 410 y = 340 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_fujian_line"
+		}
+
+
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_point_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
@@ -93,15 +135,46 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "CHI_Hiding_Our_Interests_GUI_yunnan_line"
-			position = { x = 0 y = 410 }
-			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_yunnan_line"
+			name = "CHI_Hiding_Our_Interests_GUI_flame"
+			position = { x = 0 y = 510 }
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
 		}
 
-		iconType = {
-			name = "CHI_Hiding_Our_Interests_GUI_flame"
-			position = { x = 0 y = 520 }
-			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
+		InstantTextBoxType = {
+			name = "CHI_Hiding_Our_Interests_GUI_point_name"
+			position = { x = 10 y = 515 }
+			font = "aldrich_36_outline"
+			text = CHI_Hiding_Our_Interests_GUI_point_name
+			#maxWidth = 480
+		}
+
+		InstantTextBoxType = {
+			name = "CHI_Hiding_Our_Interests_GUI_point_max"
+			position = { x = 15 y = 545 }
+			font = "aldrich_24_outline"
+			text = CHI_Hiding_Our_Interests_GUI_point_max
+			#maxWidth = 480
+		}
+		InstantTextBoxType = {
+			name = "CHI_Hiding_Our_Interests_GUI_point_available"
+			position = { x = 15 y = 575 }
+			font = "aldrich_24_outline"
+			text = CHI_Hiding_Our_Interests_GUI_point_available
+			#maxWidth = 480
+		}
+		InstantTextBoxType = {
+			name = "CHI_Hiding_Our_Interests_GUI_point_condition"
+			position = { x = 65 y = 575 }
+			font = "aldrich_24_outline"
+			text = CHI_Hiding_Our_Interests_GUI_point_condition
+			#maxWidth = 480
+		}
+		InstantTextBoxType = {
+			name = "CHI_Hiding_Our_Interests_GUI_point_secrecy"
+			position = { x = 65 y = 545 }
+			font = "aldrich_24_outline"
+			text = CHI_Hiding_Our_Interests_GUI_point_secrecy
+			#maxWidth = 480
 		}
     }
 }

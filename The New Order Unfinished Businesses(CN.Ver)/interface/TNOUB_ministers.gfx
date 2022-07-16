@@ -1,0 +1,10 @@
+spriteTypes = {
+	
+	
+	#CHI
+	
+	spriteType = {
+		name = "GFX_YUN_Deng_Xiaoping_portrait"
+		texturefile = "gfx/leaders/CHI/Portrait_Funny_Deng_Xiaoping.dds"
+	}
+}

@@ -1,0 +1,241 @@
+
+
+####    Hiding Our Interests GUI    ####
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointName
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangsu
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangxi
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_changde
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_changde_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_shijiazhuang
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_wuhan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_chongqing
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_yunnan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_fujian
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_name_fujian_localization_key
+    }
+}
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailable
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangsu
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangxi
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_changde
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_changde_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_shijiazhuang
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_wuhan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_chongqing
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_yunnan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_fujian
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_fujian_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableJiangsu
+    text = {
+        trigger = {
+                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+                subtract_from_temp_variable = { temp1 = temp2 }
+                set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableJiangxi
+    text = {
+        trigger = {
+                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+                subtract_from_temp_variable = { temp1 = temp2 }
+                set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            subtract_from_temp_variable = { temp1 = temp2 }
+            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key
+    }
+}

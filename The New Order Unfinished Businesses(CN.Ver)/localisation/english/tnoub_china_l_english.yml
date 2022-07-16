@@ -135,13 +135,11 @@
   CHI_Military_Industrial_Standard_Design_desc:0 "军用品和民用品能有多大差距呢？生产化肥的工厂也可以来生产炸药，生产汽车的工厂也可以来生产坦克装甲车，生产罐头的工厂也可以来生产军粮。战端一开，所有的工业都应该被动员起来为前线服务，因此我们将建设一批特殊设计的工厂，它们很容易在战时转产生产我们需要的物资。"
   CHI_Military_Industrial_Standard_Design_tt:0 "我们将会以建设§O民用工厂§!的名义建设大量§R特殊设计§!的工厂，这些工厂可以在§R战时§!迅速改造为§G军用工厂§!！"
   CHI_Dig_Deep_Hole:0 "深挖洞"
-  CHI_Dig_Deep_Hole_desc:0 "还不够！仅靠目前的秘密站点根本无法储蓄足够的军需战备，更别说应对日本航空队的轰炸。为了提高物资吞吐量、收纳更多秘密装备、提高持久战能力，扩大库容、新增站点、升级防空设施势在必行。
-	"我们无力建设一支能全面对抗日本的空军，因此我们工厂很有可能遭到日本的大规模空袭。为了尽可能减少轰炸遭到的损失，我们将大规模修建防空设施和人防设施，来尽可能减少我们遭到的损失。""
+  CHI_Dig_Deep_Hole_desc:0 "还不够！仅靠目前的秘密站点根本无法储蓄足够的军需战备，更别说应对日本航空队的轰炸。为了提高物资吞吐量、收纳更多秘密装备、提高持久战能力，扩大库容、新增站点、升级防空设施势在必行。"
   CHI_Wide_Accumulate_Grain:0 "广积粮"
   CHI_Wide_Accumulate_Grain_desc:0 "当我们和日本撕破脸皮后，我们有些需要进口的重要物资获取难度将大幅提升。因此，我们在战前必须尽可能地做好最坏地打算，尽可能在不引起怀疑地情况下多囤积物资。"
   CHI_Introducing_Foreign_Design:0 "引进外国设计"
-  CHI_Introducing_Foreign_Design_desc:0 "日前，一份技术合作的提案已经由日本陆军的审查发往日本政府。明面上，这份方案将会加深中日间军事技术合作，引入日本军工技术与部分核心部件蓝图。这不仅能让我们对他们的了解更进一步，也可以稍稍打消其疑心——近段时间中国制造的飞速进步是借鉴宗主国先进技术的成果，对吧？
-	"在等待我们自行设计的武器正式服役前，我们可以向其他的国家购买一些生产许可，来武装我们的军队。""
+  CHI_Introducing_Foreign_Design_desc:0 "日前，一份技术合作的提案已经由日本陆军的审查发往日本政府。明面上，这份方案将会加深中日间军事技术合作，引入日本军工技术与部分核心部件蓝图。这不仅能让我们对他们的了解更进一步，也可以稍稍打消其疑心——近段时间中国制造的飞速进步是借鉴宗主国先进技术的成果，对吧？"
   CHI_Military_Doctrine:0 "军事政策"
   CHI_Military_Doctrine_desc:0 "一支军队要怎么打仗？一支军队怎么才能打胜仗？一支军队能不能一直这样打仗？这都是问题。如果我们不能决定我们的军事战略，那我们在未来的战争中必然被动挨打。"
   CHI_New_Theory:0 "新锐理论"
@@ -412,3 +410,31 @@
   tap_fujian:0 "打开福建秘密仓库"
   tap_fujian_desc:0 "占位符"
 
+  CHI_Hiding_Our_Interests_GUI_point_name:0 "[CHI.GetHidingOurInterestsGUIPointName]"
+  CHI_Hiding_Our_Interests_GUI_point_name_jiangsu_localization_key:0 "§M江苏秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_jiangxi_localization_key:0 "§M江西秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_changde_localization_key:0 "§M常德秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_shijiazhuang_localization_key:0 "§M石家庄秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_wuhan_localization_key:0 "§M武汉秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_chongqing_localization_key:0 "§M重庆秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_yunnan_localization_key:0 "§M滇边秘密仓库§!"
+  CHI_Hiding_Our_Interests_GUI_point_name_fujian_localization_key:0 "§M福建秘密仓库§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_available:0 "[CHI.GetHidingOurInterestsGUIPointAvailable]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_jiangsu_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableJiangsu]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key:0 "可用存械：§t已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key:0 "可用存械：§R[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key:0 "可用存械：§O[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key:0 "可用存械：§Y[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key:0 "可用存械：§G[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_jiangxi_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableJiangxi]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangxi_localization_key:0 "可用存械：§t已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangxi_localization_key:0 "可用存械：§R[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangxi_localization_key:0 "可用存械：§O[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangxi_localization_key:0 "可用存械：§Y[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangxi_localization_key:0 "可用存械：§G[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition:0 "[CHI.GetHidingOurInterestsGUIPointCondition]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy:0 "[CHI.GetHidingOurInterestsGUIPointSecrecy]"
