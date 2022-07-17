@@ -342,7 +342,7 @@
   ####  Hiding Our Interests Decision  |  掩饰我方目的决议  ####
 
   CHI_Hiding_Our_Interests_Category:0 "掩饰我方目的"
-  CHI_Hiding_Our_Interests_Category_desc:0 "我们目前处于限制之下，军队被禁止储存过量的轻武器。然而就像内战时期那样，我们可以狡猾地隐藏我们的真正实力，这样日本就没有任何理由怀疑我们了。"
+  CHI_Hiding_Our_Interests_GUI_desc:0 "我们目前处于限制之下，军队被禁止储存过量的轻武器。然而就像内战时期那样，我们可以狡猾地隐藏我们的真正实力，这样日本就没有任何理由怀疑我们了。"
   the_jiangsu_cache:0 "江苏秘密仓库"
   the_jiangsu_cache_desc:0 "我们可以利用洪泽湖的水势，将一些武器藏进看上去很老旧的驳船内，并把这些船停放在岸边，作为一个简单的隐藏点。"
   the_jiangxi_cache:0 "江西秘密仓库"

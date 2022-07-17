@@ -6,6 +6,14 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 
 		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_info"
+			position = { x = 445 y = 72 }
+			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
+			pdx_tooltip = CHI_Hiding_Our_Interests_GUI_desc
+			scale = 0.8
+		}
+
+		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_map"
 			position = { x = 0 y = 20 }
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_map"
