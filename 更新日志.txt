@@ -19,12 +19,21 @@
     ·大东亚战争中的决议与国策树
 ·共荣圈诸国
 
-0.2:The White Sun Rise Again(Future)
+0.2:The White Sun Rise Again-Part 1(In-Dev)
 ·Yunnan Clique [Med]
     ·China After GAW
     ·Xunzheng
     ·Xianzheng
-0.2:白日初升（开发中）
+    ·The Democracy of China
+0.2:白日初升-第一部分（开发中）
 ·滇系军阀 [中]
     ·训政
     ·宪政
+    ·中国的民主
+
+0.3:The Road back to Motherland(Future)
+·Free France [Long]
+    ·WAW
+0.3:归乡之路（未来）
+·自由法国 [长]
+    ·西非战争
