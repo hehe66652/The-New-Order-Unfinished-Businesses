@@ -6,17 +6,17 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 
 		iconType = {
-			name = "CHI_Hiding_Our_Interests_GUI_info"
-			position = { x = 445 y = 72 }
-			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
-			pdx_tooltip = CHI_Hiding_Our_Interests_GUI_desc
-			scale = 0.8
-		}
-
-		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_map"
 			position = { x = 0 y = 20 }
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_map"
+		}
+		
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_info"
+			position = { x = 445 y = 10 }
+			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
+			pdx_tooltip = CHI_Hiding_Our_Interests_GUI_desc
+			scale = 0.8
 		}
 
 		iconType = {
@@ -158,28 +158,28 @@ guiTypes = {
 
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_max"
-			position = { x = 15 y = 545 }
+			position = { x = 50 y = 550 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_max
 			#maxWidth = 480
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_available"
-			position = { x = 15 y = 575 }
+			position = { x = 50 y = 600 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_available
 			#maxWidth = 480
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_condition"
-			position = { x = 65 y = 575 }
+			position = { x = 300 y = 550 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_condition
 			#maxWidth = 480
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_secrecy"
-			position = { x = 65 y = 545 }
+			position = { x = 300 y = 600 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_secrecy
 			#maxWidth = 480

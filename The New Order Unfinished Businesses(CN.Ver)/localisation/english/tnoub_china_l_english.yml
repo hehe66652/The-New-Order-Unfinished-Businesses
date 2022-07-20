@@ -7,6 +7,22 @@
   CHI_ROC_DEF:0 "中华民国"
   CHI_ROC_ADJ:0 "中国"
 
+  MON_CHI_military_occupation_zone:0 "蒙古占领区"
+  MON_CHI_military_occupation_zone_DEF:0 "蒙古军事占领区"
+  MON_CHI_military_occupation_zone_ADJ:0 "蒙古"
+
+  KOR_CHI_military_occupation_zone:0 "朝鲜占领区"
+  KOR_CHI_military_occupation_zone_DEF:0 "朝鲜半岛军事占领区"
+  KOR_CHI_military_occupation_zone_ADJ:0 "朝鲜"
+
+  MAN_CHI_military_occupation_zone:0 "满洲占领区"
+  MAN_CHI_military_occupation_zone_DEF:0 "满洲军事占领区"
+  MAN_CHI_military_occupation_zone_ADJ:0 "满洲"
+
+  FOR_CHI_military_occupation_zone:0 "台湾占领区"
+  FOR_CHI_military_occupation_zone_DEF:0 "台湾军事占领区"
+  FOR_CHI_military_occupation_zone_ADJ:0 "台湾"
+
   TIB_CHI_autonomous_region:0 "西藏自治区"
   TIB_CHI_autonomous_region_DEF:0 "西藏自治区"
   TIB_CHI_autonomous_region_ADJ:0 "中国西藏"
@@ -239,7 +255,7 @@
   CHI_IJA_Alert_Significantdown_tt:0 "§G显著§!降低§R帝国陆军警惕度§!。\n"
 
 
-####  Great Asain War Tree  |  大东亚战争国策  ####
+####  Great Asian War Tree  |  大东亚战争国策  ####
 
   CHI_War:0 "战争开始了！"
   CHI_War_desc:0 "日本鬼子来了——他们向我们宣战了！一场新的伟大的民族斗争开始了，一场将决定中国和东亚的命运的战争。只有一方能活着走出战壕，而我们必将取得胜利！前进，为了胜利！"
@@ -420,21 +436,175 @@
   CHI_Hiding_Our_Interests_GUI_point_name_yunnan_localization_key:0 "§M滇边秘密仓库§!"
   CHI_Hiding_Our_Interests_GUI_point_name_fujian_localization_key:0 "§M福建秘密仓库§!"
 
+
+  CHI_Hiding_Our_Interests_GUI_point_max:0 "[CHI.GetHidingOurInterestsGUIPointMax]"
+
+  CHI_Hiding_Our_Interests_GUI_point_max_jiangsu_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_jiangsu]"
+  CHI_Hiding_Our_Interests_GUI_point_max_jiangxi_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_jiangxi]"
+  CHI_Hiding_Our_Interests_GUI_point_max_changde_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_changde]"
+  CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang]"
+  CHI_Hiding_Our_Interests_GUI_point_max_wuhan_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_wuhan]"
+  CHI_Hiding_Our_Interests_GUI_point_max_chongqing_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_chongqing]"
+  CHI_Hiding_Our_Interests_GUI_point_max_yunnan_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_yunnan]"
+  CHI_Hiding_Our_Interests_GUI_point_max_fujian_localization_key:0 "最大容量：[?CHI_Hiding_Our_Interests_GUI_point_max_fujian]"
+
+
   CHI_Hiding_Our_Interests_GUI_point_available:0 "[CHI.GetHidingOurInterestsGUIPointAvailable]"
 
   CHI_Hiding_Our_Interests_GUI_point_available_jiangsu_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableJiangsu]"
-  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key:0 "可用存械：§t已满！§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key:0 "可用存械：§R[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key:0 "可用存械：§O[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key:0 "可用存械：§Y[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key:0 "可用存械：§G[CHI_Hiding_Our_Interests_GUI_point_available_jiangsu]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangsu|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangsu|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangsu|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangsu|R0]"
 
   CHI_Hiding_Our_Interests_GUI_point_available_jiangxi_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableJiangxi]"
-  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangxi_localization_key:0 "可用存械：§t已满！§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangxi_localization_key:0 "可用存械：§R[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangxi_localization_key:0 "可用存械：§O[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangxi_localization_key:0 "可用存械：§Y[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
-  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangxi_localization_key:0 "可用存械：§G[CHI_Hiding_Our_Interests_GUI_point_available_jiangxi]§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_jiangxi_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_jiangxi_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangxi|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangxi_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangxi|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangxi_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangxi|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_jiangxi_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_jiangxi|R0]"
+  
+  CHI_Hiding_Our_Interests_GUI_point_available_changde_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableChangde]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_changde_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_changde_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_changde|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_changde_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_changde|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_changde_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_changde|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_changde_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_changde|R0]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableShijiazhuang]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_shijiazhuang_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_shijiazhuang_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_changde|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_shijiazhuang_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_shijiazhuang_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_shijiazhuang_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang|R0]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_wuhan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableWuhan]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_wuhan_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_wuhan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_wuhan|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_wuhan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_wuhan|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_wuhan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_wuhan|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_wuhan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_wuhan|R0]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_chongqing_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableChongqing]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_chongqing_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_chongqing_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_chongqing|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_chongqing_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_chongqing|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_chongqing_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_chongqing|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_chongqing_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_chongqing|R0]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_yunnan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableYunnan]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_yunnan_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_yunnan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_yunnan|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_yunnan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_yunnan|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_yunnan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_yunnan|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_yunnan_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_yunnan|R0]"
+
+  CHI_Hiding_Our_Interests_GUI_point_available_fujian_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointAvailableFujian]"
+  CHI_Hiding_Our_Interests_GUI_point_available_max_fujian_localization_key:0 "可用存械：§R已满！§!"
+  CHI_Hiding_Our_Interests_GUI_point_available_high_fujian_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_fujian|O0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_fujian_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_fujian|Y0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_middle_fujian_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_fujian|G0]"
+  CHI_Hiding_Our_Interests_GUI_point_available_low_fujian_localization_key:0 "可用存械：[?CHI_Hiding_Our_Interests_GUI_point_available_fujian|R0]"
+
 
   CHI_Hiding_Our_Interests_GUI_point_condition:0 "[CHI.GetHidingOurInterestsGUIPointCondition]"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionJiangsu]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_jiangsu_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_jiangsu_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_jiangsu_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_jiangsu_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionJiangxi]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_jiangxi_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_jiangxi_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_jiangxi_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_jiangxi_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_changde_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionChangde]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_changde_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_changde_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_changde_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_changde_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionShijiazhuang]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_shijiazhuang_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_shijiazhuang_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_shijiazhuang_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_shijiazhuang_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_wuhan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionWuhan]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_wuhan_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_wuhan_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_wuhan_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_wuhan_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_chongqing_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionChongqing]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_chongqing_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_chongqing_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_chongqing_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_chongqing_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_yunnan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionYunnan]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_yunnan_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_yunnan_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_yunnan_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_yunnan_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_condition_fujian_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointConditionFujian]"
+  CHI_Hiding_Our_Interests_GUI_point_condition_high_fujian_localization_key:0 "存储情况：§G保管完善！§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_fujian_localization_key:0 "存储情况：§Y需要维护§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_middle_fujian_localization_key:0 "存储情况：§O疏于看管§!"
+  CHI_Hiding_Our_Interests_GUI_point_condition_low_fujian_localization_key:0 "存储情况：§R几乎毁坏！§!"
+
+
   CHI_Hiding_Our_Interests_GUI_point_secrecy:0 "[CHI.GetHidingOurInterestsGUIPointSecrecy]"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyJiangsu]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_jiangsu_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_jiangsu_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_jiangsu_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_jiangsu_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyJiangxi]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_jiangxi_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_jiangxi_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_jiangxi_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_jiangxi_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_changde_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyChangde]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_changde_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_changde_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_changde_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_changde_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyShijiazhuang]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_shijiazhuang_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_shijiazhuang_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_shijiazhuang_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_shijiazhuang_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyWuhan]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_wuhan_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_wuhan_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_wuhan_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_wuhan_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyChongqing]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_chongqing_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_chongqing_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_chongqing_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_chongqing_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyYunnan]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_yunnan_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_yunnan_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_yunnan_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_yunnan_localization_key:0 "保密程度：§R完全泄密！§!"
+
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian_localization_key:0 "[CHI.GetHidingOurInterestsGUIPointSecrecyFujian]"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_high_fujian_localization_key:0 "保密程度：§G严格保密！§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_fujian_localization_key:0 "保密程度：§Y基本保密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_fujian_localization_key:0 "保密程度：§O可能泄密§!"
+  CHI_Hiding_Our_Interests_GUI_point_secrecy_low_fujian_localization_key:0 "保密程度：§R完全泄密！§!"

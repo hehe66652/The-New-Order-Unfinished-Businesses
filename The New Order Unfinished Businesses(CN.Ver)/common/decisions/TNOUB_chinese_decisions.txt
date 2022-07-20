@@ -408,7 +408,13 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = yes
 
 		remove_effect = {
-			set_country_flag = CHI_jiangsu_point_build
+			hidden_effect = {
+				set_country_flag = CHI_jiangsu_point_build
+				set_variable = { CHI_Hiding_Our_Interests_GUI_point_max_jiangsu = 500 }
+            	set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = 0 }
+				set_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 75 }
+            	set_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 100 }
+			}
 		}
 	}
 	the_jiangxi_cache = {
@@ -559,7 +565,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no #Just for debug,remember to change it
 
 		remove_effect = {
 			set_country_flag = CHI_fujian_point_build
@@ -582,7 +588,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_jiangxi = {
@@ -601,10 +607,10 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
-	cache_weapon_in_chengde = {
+	cache_weapon_in_changde = {
 		icon = GFX_
 
 		allowed = {
@@ -620,7 +626,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_shijiazhuang = {
@@ -639,7 +645,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_wuhan = {
@@ -658,7 +664,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_chongqing = {
@@ -677,7 +683,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_yunnan = {
@@ -696,7 +702,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = yes
+		fire_only_once = no
 	}
 
 	cache_weapon_in_fujian = {
@@ -715,6 +721,96 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = no	#Just for debug,remember to change it
+		fire_only_once = no
+	}
+
+	####	debug | 调试	####
+
+	debug_add_max_capacity_in_jiangsu_point = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_max_jiangsu = 500 } 
+		}
+	}
+
+	debug_decrease_max_capacity_in_jiangsu_point = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_max_jiangsu = -500 } 
+		}
+	}
+
+	debug_add_available_weapon_in_jiangsu_point = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = 100 } 
+		}
+	}
+
+	debug_decrease_available_weapon_in_jiangsu_point = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = -100 } 
+		}
 	}
 }

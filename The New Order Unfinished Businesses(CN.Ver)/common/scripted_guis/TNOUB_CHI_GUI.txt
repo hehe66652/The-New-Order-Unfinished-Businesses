@@ -452,6 +452,36 @@ scripted_gui = {
 					}
 				}
 			}
+			CHI_Hiding_Our_Interests_GUI_point_condition_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_point_visible
+					OR = {
+						has_country_flag = CHI_point_jiangsu
+						has_country_flag = CHI_point_jiangxi
+						has_country_flag = CHI_point_changde
+						has_country_flag = CHI_point_shijiazhuang
+						has_country_flag = CHI_point_wuhan
+						has_country_flag = CHI_point_chongqing
+						has_country_flag = CHI_point_yunnan
+						has_country_flag = CHI_point_fujian
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_point_secrecy_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_point_visible
+					OR = {
+						has_country_flag = CHI_point_jiangsu
+						has_country_flag = CHI_point_jiangxi
+						has_country_flag = CHI_point_changde
+						has_country_flag = CHI_point_shijiazhuang
+						has_country_flag = CHI_point_wuhan
+						has_country_flag = CHI_point_chongqing
+						has_country_flag = CHI_point_yunnan
+						has_country_flag = CHI_point_fujian
+					}
+				}
+			}
         }
     }
 }

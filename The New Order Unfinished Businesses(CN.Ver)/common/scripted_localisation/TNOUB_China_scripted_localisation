@@ -55,6 +55,58 @@ defined_text = {
 }
 
 defined_text = {
+    name = GetHidingOurInterestsGUIPointMax
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangsu
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangxi
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_changde
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_changde_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_shijiazhuang
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_wuhan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_chongqing
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_yunnan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_fujian
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_max_fujian_localization_key
+    }
+}
+
+defined_text = {
     name = GetHidingOurInterestsGUIPointAvailable
     text = {
         trigger = {
@@ -111,9 +163,9 @@ defined_text = {
         trigger = {
                 set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
                 set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-                subtract_from_temp_variable = { temp1 = temp2 }
-                set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 1 }
+                divide_temp_variable = { temp2 = temp1 }
+                
+                check_variable = { temp2 = 1 }
         }
         localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key
     }
@@ -121,11 +173,11 @@ defined_text = {
         trigger = {
             set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
             set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.75 }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 1 }
+                check_variable = { temp2 < 1 }
             }
         }
         localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key
@@ -134,12 +186,12 @@ defined_text = {
         trigger = {
             set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
             set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.50 }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.75 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.75 }
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
             }
         }
         localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key
@@ -148,12 +200,12 @@ defined_text = {
         trigger = {
             set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
             set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.25 }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.50 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.50 }
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
             }
         }
         localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key
@@ -162,11 +214,11 @@ defined_text = {
         trigger = {
             set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
             set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            divide_temp_variable = { temp2 = temp1 }
+            
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.25 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.25 }
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
             }
         }
         localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key
@@ -176,66 +228,1246 @@ defined_text = {
     name = GetHidingOurInterestsGUIPointAvailableJiangxi
     text = {
         trigger = {
-                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
-                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
-                subtract_from_temp_variable = { temp1 = temp2 }
-                set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 1 }
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 = 1 }
         }
-        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_jiangsu_localization_key
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_jiangxi_localization_key
     }
     text = {
         trigger = {
-            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
-            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.75 }
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 1 }
+                check_variable = { temp2 < 1 }
             }
         }
-        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_jiangsu_localization_key
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_jiangxi_localization_key
     }
     text = {
         trigger = {
-            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
-            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.50 }
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.75 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.75 }
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
             }
         }
-        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangsu_localization_key
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_jiangxi_localization_key
     }
     text = {
         trigger = {
-            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
-            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
-            check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text > 0.25 }
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.50 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.50 }
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
             }
         }
-        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangsu_localization_key
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_jiangxi_localization_key
     }
     text = {
         trigger = {
-            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangsu }
-            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
-            subtract_from_temp_variable = { temp1 = temp2 }
-            set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = temp1 }
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_jiangxi }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
             OR = {
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text = 0.25 }
-                check_variable = { CHI_Hiding_Our_Interests_GUI_point_available_text < 0.25 }
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
             }
         }
-        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_jiangsu_localization_key
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_jiangxi_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableChangde
+    text = {
+        trigger = {
+                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_changde }
+                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+                divide_temp_variable = { temp2 = temp1 }
+                
+                check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_changde_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_changde }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_changde }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_changde }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_changde_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chandge }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_changde_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableShijiazhuang
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_shijiazhuang }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_shijiazhuang_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableWuhan
+    text = {
+        trigger = {
+                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_wuhan }
+                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+                divide_temp_variable = { temp2 = temp1 }
+                
+                check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_wuhan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_wuhan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_wuhan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_wuhan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_wuhan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableChongqing
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chongqing }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chongqing }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chongqing }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chongqing }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_chongqing }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_chongqing_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableYunnan
+    text = {
+        trigger = {
+                set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_yunnan }
+                set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+                divide_temp_variable = { temp2 = temp1 }
+                
+                check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_yunnan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_yunnan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_yunnan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_yunnan }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            divide_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_yunnan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointAvailableFujian
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_fujian }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 = 1 }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_max_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_fujian }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.75 }
+            OR = {
+                check_variable = { temp2 < 1 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_fujian }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.50 }
+            OR = {
+                check_variable = { temp2 = 0.75 }
+                check_variable = { temp2 < 0.75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_slightly_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_fujian }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            check_variable = { temp2 > 0.25 }
+            OR = {
+                check_variable = { temp2 = 0.50 }
+                check_variable = { temp2 < 0.50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_middle_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_max_fujian }
+            set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            divide_from_temp_variable = { temp2 = temp1 }
+            
+            OR = {
+                check_variable = { temp2 = 0.25 }
+                check_variable = { temp2 < 0.25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_available_low_fujian_localization_key
+    }
+}
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointCondition
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangsu
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangxi
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_changde
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_changde_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_shijiazhuang
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_wuhan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_chongqing
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_yunnan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_fujian
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_fujian_localization_key
+    }
+}
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionJiangsu
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_jiangsu_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionJiangxi
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_jiangxi_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionChangde
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_changde_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_changde_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionShijiazhuang
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_shijiazhuang_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionWuhan
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_wuhan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionChongqing
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_chongqing_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionYunnan
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_yunnan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointConditionFujian
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_slightly_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_middle_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_condition_low_fujian_localization_key
+    }
+}
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecy
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangsu
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_jiangxi
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_changde
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_changde_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_shijiazhuang
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_wuhan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_chongqing
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_yunnan
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            has_country_flag = CHI_point_fujian
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian_localization_key
+    }
+}
+
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyJiangsu
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_jiangsu_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_jiangsu_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyJiangxi
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_jiangxi_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangxi < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_jiangxi_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyChangde
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_changde_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_changde_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_changde < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_changde_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyShijiazhuang
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_shijiazhuang_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_shijiazhuang < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_shijiazhuang_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyWuhan
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_jiangsu < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_wuhan_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_wuhan < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_wuhan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyChongqing
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_chongqing_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_chongqing < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_chongqing_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyYunnan
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_yunnan_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_yunnan_localization_key
+    }
+}
+defined_text = {
+    name = GetHidingOurInterestsGUIPointSecrecyFujian
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian > 75 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian < 100 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian = 100 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian > 50 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian = 75 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian < 75 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_slightly_high_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian > 25 }
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian = 50 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian < 50 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_middle_fujian_localization_key
+    }
+    text = {
+        trigger = {
+            OR = {
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian = 25 }
+                check_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_fujian < 25 }
+            }
+        }
+        localization_key = CHI_Hiding_Our_Interests_GUI_point_secrecy_low_fujian_localization_key
     }
 }

@@ -127,6 +127,11 @@ tnoub_global_debug_decisions = {
 					transfer_troops = no
 				}
 
+				annex_country = {
+					target = TIB
+					transfer_troops = no
+				}
+
 				transfer_state = 601
 				transfer_state = 1464
 				transfer_state = 524
@@ -154,11 +159,11 @@ tnoub_global_debug_decisions = {
 				add_state_core = 810
 				add_state_core = 524
 
-				set_autonomy = {
-					target = TIB
-					autonomy_state = autonomy_dominion
-					end_wars = yes
-				}
+				#set_autonomy = {
+				#	target = TIB
+				#	autonomy_state = autonomy_dominion
+				#	end_wars = yes
+				#}
 				set_autonomy = {
 					target = MON
 					autonomy_state = autonomy_dominion
@@ -170,13 +175,13 @@ tnoub_global_debug_decisions = {
 					end_wars = yes
 				}
 			}
-			TIB = {
-				leave_faction = yes
-				set_cosmetic_tag = TIB_CHI_autonomous_region
-			}
+			#TIB = {
+			#	leave_faction = yes
+			#	set_cosmetic_tag = TIB_CHI_autonomous_region
+			#}
 			MON = {
 				leave_faction = yes
-				set_cosmetic_tag = MON_CHI_autonomous_region
+				set_cosmetic_tag = MON_CHI_military_occupation_zone
 				annex_country = {
 					target = MEN
 					transfer_troops = yes
@@ -186,9 +191,13 @@ tnoub_global_debug_decisions = {
 					transfer_troops = yes
 				}
 			}
+			MAN = {
+				leave_faction = yes
+				set_cosmetic_tag = MAN_CHI_military_occupation_zone
+			}
 			KOR = {
 				leave_faction = yes
-				set_cosmetic_tag = KOR_CHI
+				set_cosmetic_tag = KOR_CHI_military_occupation_zone
 				transfer_state = 525
 				transfer_state = 527
 				transfer_state = 560
