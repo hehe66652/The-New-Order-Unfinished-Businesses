@@ -5,12 +5,14 @@ guiTypes = {
 		size = { width = 510 height = 650 }
 		position = { x = 0 y = 0 }
 
+		#Map
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_map"
 			position = { x = 0 y = 20 }
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_map"
 		}
 		
+		#Infomation
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_info"
 			position = { x = 445 y = 10 }
@@ -19,6 +21,7 @@ guiTypes = {
 			scale = 0.8
 		}
 
+		#Lines
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_line"
 			position = { x = 435 y = 185 }
@@ -60,16 +63,88 @@ guiTypes = {
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_fujian_line"
 		}
 
+		#Railways
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild"
+			position = { x = 350 y = 170 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build"
+			position = { x = 350 y = 170 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild"
+			position = { x = 350 y = 240 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build"
+			position = { x = 350 y = 240 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild"
+			position = { x = 280 y = 240 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build"
+			position = { x = 280 y = 240 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild"
+			position = { x = 350 y = 60 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build"
+			position = { x = 350 y = 60 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild"
+			position = { x = 180 y = 260 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build"
+			position = { x = 180 y = 260 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild"
+			position = { x = 65 y = 260 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build"
+			position = { x = 65 y = 260 }
+		}
+		iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild"
+			position = { x = 360 y = 300 }
+		}
+        iconType = {
+			name = "CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build"
+			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build"
+			position = { x = 360 y = 300 }
+		}
 
+		#Points
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_point_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_unbuild"
-			position = { x = 435 y = 185 }
+			position = { x = 420 y = 170 }
 		}
         buttonType = {
 			name = "CHI_Hiding_Our_Interests_GUI_jiangsu_point_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_point_build"
-			position = { x = 435 y = 185 }
+			position = { x = 420 y = 170 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_jiangxi_point_unbuild"
@@ -142,12 +217,14 @@ guiTypes = {
 			position = { x = 410 y = 340 }
 		}
 
+		#Flame
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_flame"
 			position = { x = 0 y = 510 }
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
 		}
 
+		#Point Name
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_name"
 			position = { x = 10 y = 515 }
@@ -156,6 +233,7 @@ guiTypes = {
 			#maxWidth = 480
 		}
 
+		#Variables
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_max"
 			position = { x = 50 y = 550 }
@@ -184,5 +262,6 @@ guiTypes = {
 			text = CHI_Hiding_Our_Interests_GUI_point_secrecy
 			#maxWidth = 480
 		}
+
     }
 }

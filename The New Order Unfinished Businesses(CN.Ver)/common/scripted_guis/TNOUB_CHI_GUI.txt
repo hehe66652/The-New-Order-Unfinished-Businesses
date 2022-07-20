@@ -482,6 +482,92 @@ scripted_gui = {
 					}
 				}
 			}
+
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_wuhan_jiangsu_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_wuhan_jiangxi_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_wuhan_changde_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_wuhan_shijiazhuang_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_changde_chongqing_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_chongqing_yunnan_build
+					}
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild_visible = {
+				hidden_trigger = {
+					NOT = {
+						has_country_flag = CHI_railway_jiangxi_fujian_build
+					}
+				}
+			}
+
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_wuhan_jiangsu_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_wuhan_jiangxi_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_wuhan_changde_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_wuhan_shijiazhuang_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_changde_chongqing_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_chongqing_yunnan_build
+				}
+			}
+			CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_railway_jiangxi_fujian_build
+				}
+			}
         }
     }
 }

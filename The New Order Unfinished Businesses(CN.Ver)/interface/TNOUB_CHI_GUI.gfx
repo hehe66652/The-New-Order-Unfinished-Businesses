@@ -53,4 +53,62 @@ spriteTypes = {
 		name = "GFX_CHI_Hiding_Our_Interests_GUI_flame"
 		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_flame.dds"
 	}
+
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build"
+		texturefile = "gfx/interface/chi_gui/CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build.dds"
+	}
 }

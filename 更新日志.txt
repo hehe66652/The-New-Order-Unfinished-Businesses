@@ -22,18 +22,16 @@
 0.2:The White Sun Rise Again-Part 1(In-Dev)
 ·Yunnan Clique [Med]
     ·China After GAW
-    ·Xunzheng
-    ·Xianzheng
-    ·The Democracy of China
+    ·At Least 5 Paths
 0.2:白日初升-第一部分（开发中）
 ·滇系军阀 [中]
-    ·训政
-    ·宪政
-    ·中国的民主
-
-0.3:The Road back to Motherland(Future)
+    ·大东亚战争后续
+    ·至少5条路线
+0.3:Country Road,Take Me Home(Future)
 ·Free France [Long]
     ·WAW
+    ·2 Paths
 0.3:归乡之路（未来）
 ·自由法国 [长]
     ·西非战争
+    ·2条路线
