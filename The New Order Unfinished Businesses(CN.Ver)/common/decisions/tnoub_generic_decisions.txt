@@ -221,6 +221,128 @@ tnoub_global_debug_decisions = {
 		}
 	}
 
+	tnoub_debug_set_song_qingling_end = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = YUN
+		}
+		visible = {
+			NOT = { has_country_flag = tnoub_hide_debug_decisions }
+		}
+		complete_effect = {
+			YUN_WI_Victory_ROC = yes
+
+			YUN_song_qingling = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = social_democracy_three_principles_of_the_people_subtype
+						traits = { }
+						expire = "1999.1.1.1"
+						id = -1
+					}
+					promote_leader = yes
+				}
+			}
+			
+			
+			YUN = {
+				set_politics = {
+					ruling_party = social_democracy
+					long_name = ROC_kuomintang_social_democracy_party_long
+					name = ROC_kuomintang_social_democracy_party
+				}
+	
+				set_party_name = {
+					ideology = conservative_democracy
+					long_name = YUN_ROC_conservative_democracy_party_long
+					name = YUN_ROC_conservative_democracy_party
+				}
+	
+				set_party_name = {
+					ideology = authoritarian_democracy
+					long_name = YUN_ROC_authoritarian_democracy_party_long
+					name = YUN_ROC_authoritarian_democracy_party
+				}
+	
+				set_popularities = {
+					social_democracy = 40
+					liberal_democracy = 30
+					conservative_democracy = 20
+					communist = 8
+					authoritarian_democracy = 2
+				}
+
+				leave_faction = yes
+				set_cosmetic_tag = YUN_ROC
+				annex_country = {
+					target = GNG
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = GUX
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CHI
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = GUZ
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = SIC
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = XIK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = QIN
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = SHX
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = XIN
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ETR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = MAN
+					transfer_troops = no
+				}
+				annex_country = {
+					target = GAN
+					transfer_troops = no
+				}
+				annex_country = {
+					target = MEN
+					transfer_troops = no
+				}
+				annex_country = {
+					target = MON
+					transfer_troops = no
+				}
+				transfer_state = 814
+				transfer_state = 329
+				transfer_state = 537
+				transfer_state = 524
+				transfer_state = 434
+				transfer_state = 762
+				transfer_state = 1319
+			}
+		}
+	}
+
+
 	tnoub_debug_funny_dengism = {
 		icon = GFX_decision_generic_industry
 

@@ -2297,6 +2297,11 @@ CHI_ROC = {
 	color_ui = rgb { 35 53 104 }
 }
 
+YUN_ROC = {
+	color = rgb { 70 100 170 }
+	color_ui = rgb { 70 100 170 }
+}
+
 TIB_CHI_autonomous_region = {
 	color = rgb { 35 53 104 }
 	color_ui = rgb { 35 53 104 }

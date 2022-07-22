@@ -257,6 +257,10 @@ defined_text = {
 		localization_key = conservative_democracy_revisionist_zionism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservative_democracy_xianzheng_subtype }
+		localization_key = conservative_democracy_xianzheng_subtype
+	}
+	text = {
 		localization_key = conservative_democracy
 	}
 }
