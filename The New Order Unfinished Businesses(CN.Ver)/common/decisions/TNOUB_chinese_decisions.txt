@@ -389,6 +389,470 @@ CHI_Remilitarization_category = {
 }
 
 CHI_Hiding_Our_Interests_Category = {
+	CHI_update_cache_condition_weekly = {
+		icon = GFX_decision_generic_political_action
+		allowed = {
+			original_tag = CHI
+		}
+
+		visible = {
+			has_country_flag = TNOUB_CHI_Hiding_Our_Interests
+			OR = {
+				has_country_flag = CHI_jiangsu_point_build
+				has_country_flag = CHI_jiangxi_point_build
+				has_country_flag = CHI_changde_point_build
+				has_country_flag = CHI_shijiazhuang_point_build
+				has_country_flag = CHI_wuhan_point_build
+				has_country_flag = CHI_chongqing_point_build
+				has_country_flag = CHI_yunnan_point_build
+				has_country_flag = CHI_fujian_point_build
+			}
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		activation = {
+			always = yes
+		}
+
+		is_good = yes
+
+		days_mission_timeout = 7
+
+		priority = 100
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: CHI_update_cache_condition_weekly mission timer elapsed"
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_flag = CHI_jiangsu_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 50 }
+					}
+					set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            		multiply_temp_variable = { temp1 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = temp1 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_jiangsu_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 25 }
+					}
+					set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            		multiply_temp_variable = { temp1 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = temp1 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_jiangsu_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = 0 }
+						}
+					}
+					set_temp_variable = { temp1 = CHI_Hiding_Our_Interests_GUI_point_available_jiangsu }
+            		multiply_temp_variable = { temp1 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangsu = temp1 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_jiangxi_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 50 }
+					}
+					set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            		multiply_temp_variable = { temp2 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangxi = temp2 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_jiangxi_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 25 }
+					}
+					set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            		multiply_temp_variable = { temp2 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangxi = temp2 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_jiangxi_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = 0 }
+						}
+					}
+					set_temp_variable = { temp2 = CHI_Hiding_Our_Interests_GUI_point_available_jiangxi }
+            		multiply_temp_variable = { temp2 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_jiangxi = temp2 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_changde_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde > 50 }
+					}
+					set_temp_variable = { temp3 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            		multiply_temp_variable = { temp3 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_changde = temp3 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_changde_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chandge < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chandge > 25 }
+					}
+					set_temp_variable = { temp3 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            		multiply_temp_variable = { temp3 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_changde = temp3 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_changde_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = 0 }
+						}
+					}
+					set_temp_variable = { temp3 = CHI_Hiding_Our_Interests_GUI_point_available_changde }
+            		multiply_temp_variable = { temp3 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_changde = temp3 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_shijiazhuang_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 50 }
+					}
+					set_temp_variable = { temp4 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            		multiply_temp_variable = { temp4 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang = temp4 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_shijiazhuang_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 25 }
+					}
+					set_temp_variable = { temp4 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            		multiply_temp_variable = { temp4 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang = temp4 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_shijiazhuang_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = 0 }
+						}
+					}
+					set_temp_variable = { temp4 = CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang }
+            		multiply_temp_variable = { temp4 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_shijiazhuang = temp4 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_wuhan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 50 }
+					}
+					set_temp_variable = { temp5 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            		multiply_temp_variable = { temp5 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_wuhan = temp5 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_wuhan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 25 }
+					}
+					set_temp_variable = { temp5 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            		multiply_temp_variable = { temp5 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_wuhan = temp5 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_wuhan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = 0 }
+						}
+					}
+					set_temp_variable = { temp5 = CHI_Hiding_Our_Interests_GUI_point_available_wuhan }
+            		multiply_temp_variable = { temp5 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_wuhan = temp5 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_chongqing_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 50 }
+					}
+					set_temp_variable = { temp6 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            		multiply_temp_variable = { temp6 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_chongqing = temp6 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_chongqing_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 25 }
+					}
+					set_temp_variable = { temp6 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            		multiply_temp_variable = { temp6 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_chongqing = temp6 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_chongqing_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = 0 }
+						}
+					}
+					set_temp_variable = { temp6 = CHI_Hiding_Our_Interests_GUI_point_available_chongqing }
+            		multiply_temp_variable = { temp6 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_chongqing = temp6 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_yunnan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 50 }
+					}
+					set_temp_variable = { temp7 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            		multiply_temp_variable = { temp7 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_yunnan = temp7 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_yunnan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 25 }
+					}
+					set_temp_variable = { temp7 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            		multiply_temp_variable = { temp7 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_yunnan = temp7 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_yunnan_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 0 }
+						}
+					}
+					set_temp_variable = { temp7 = CHI_Hiding_Our_Interests_GUI_point_available_yunnan }
+            		multiply_temp_variable = { temp7 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_yunnan = temp7 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_fujian_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 75 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 75 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 50 }
+					}
+					set_temp_variable = { temp8 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            		multiply_temp_variable = { temp8 = 0.025 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_fujian = temp8 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_fujian_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 50 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 50 }
+						}
+						check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 25 }
+					}
+					set_temp_variable = { temp8 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            		multiply_temp_variable = { temp8 = 0.05 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_fujian = temp8 }
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CHI_fujian_point_build
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 25 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian < 25 }
+						}
+						OR = {
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian > 0 }
+							check_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = 0 }
+						}
+					}
+					set_temp_variable = { temp8 = CHI_Hiding_Our_Interests_GUI_point_available_fujian }
+            		multiply_temp_variable = { temp8 = 0.1 }
+					subtract_from_variable = { CHI_Hiding_Our_Interests_GUI_point_available_fujian = temp8 }
+				}
+
+				if = {
+					limit = {
+						has_country_flag = CHI_jiangsu_point_build
+						NOT = {
+							has_country_flag = CHI_jiangsu_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangsu = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_jiangxi_point_build
+						NOT = {
+							has_country_flag = CHI_jiangxi_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_jiangxi = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_changde_point_build
+						NOT = {
+							has_country_flag = CHI_changde_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_changde = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_shijiazhuang_point_build
+						NOT = {
+							has_country_flag = CHI_shijiazhuang_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_shijiazhuang = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_wuhan_point_build
+						NOT = {
+							has_country_flag = CHI_wuhan_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_wuhan = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_chongqing_point_build
+						NOT = {
+							has_country_flag = CHI_chongqing_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_chongqing = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_yunnan_point_build
+						NOT = {
+							has_country_flag = CHI_yunnan_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = -5 }
+				}
+				if = {
+					limit = {
+						has_country_flag = CHI_fujian_point_build
+						NOT = {
+							has_country_flag = CHI_fujian_cache_in_maintain
+						}
+					}
+					add_to_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_fujian = -5 }
+				}
+
+				activate_mission = CHI_update_cache_condition_weekly
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CHI_update_cache_condition_weekly"
+		}
+	}
 	the_jiangsu_cache = {
 		icon = GFX_
 
@@ -572,7 +1036,7 @@ CHI_Hiding_Our_Interests_Category = {
 		}
 	}
 
-	cache_weapon_in_jiangsu = {
+	cache_rifle_in_jiangsu = {
 		icon = GFX_
 
 		allowed = {
@@ -591,7 +1055,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_jiangxi = {
+	cache_rifle_in_jiangxi = {
 		icon = GFX_
 
 		allowed = {
@@ -610,7 +1074,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_changde = {
+	cache_rifle_in_changde = {
 		icon = GFX_
 
 		allowed = {
@@ -629,7 +1093,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_shijiazhuang = {
+	cache_rifle_in_shijiazhuang = {
 		icon = GFX_
 
 		allowed = {
@@ -648,7 +1112,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_wuhan = {
+	cache_rifle_in_wuhan = {
 		icon = GFX_
 
 		allowed = {
@@ -667,7 +1131,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_chongqing = {
+	cache_rifle_in_chongqing = {
 		icon = GFX_
 
 		allowed = {
@@ -686,7 +1150,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_yunnan = {
+	cache_rifle_in_yunnan = {
 		icon = GFX_
 
 		allowed = {
@@ -705,7 +1169,7 @@ CHI_Hiding_Our_Interests_Category = {
 		fire_only_once = no
 	}
 
-	cache_weapon_in_fujian = {
+	cache_rifle_in_fujian = {
 		icon = GFX_
 
 		allowed = {

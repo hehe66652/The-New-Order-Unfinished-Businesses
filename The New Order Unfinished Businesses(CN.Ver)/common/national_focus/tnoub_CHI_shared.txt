@@ -42,7 +42,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Hiding_Our_Interests
-	icon = GFX_
+	icon = GFX_CHI_Hiding_Our_Interests
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Military
@@ -234,7 +234,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Military_Doctrine
-	icon = GFX_
+	icon = GFX_CHI_Military_Doctrine
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Military
@@ -410,7 +410,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Soldier
-	icon = GFX_
+	icon = GFX_CHI_Soldier
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Military

@@ -3,4 +3,36 @@ spriteTypes = {
 		name = "GFX_CHI_Military"
 		texturefile = "gfx/interface/goals/CHI_Military.dds"
 	}
+	SpriteType = {
+		name = "GFX_CHI_Hiding_Our_Interests"
+		texturefile = "gfx/interface/goals/CHI_Hiding_Our_Interests.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Weapons_Cache"
+		texturefile = "gfx/interface/goals/CHI_Weapons_Cache.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Buying_TC"
+		texturefile = "gfx/interface/goals/CHI_Buying_TC.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Military_Doctrine"
+		texturefile = "gfx/interface/goals/CHI_Military_Doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_New_Theory"
+		texturefile = "gfx/interface/goals/CHI_New_Theory.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Wisdom_of_The_Past"
+		texturefile = "gfx/interface/goals/CHI_Wisdom_of_The_Past.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Soldier"
+		texturefile = "gfx/interface/goals/CHI_Soldier.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_Raise_Conscription_Standards"
+		texturefile = "gfx/interface/goals/CHI_Raise_Conscription_Standards.dds"
+	}
 }

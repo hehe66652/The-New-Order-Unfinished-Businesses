@@ -1,8 +1,8 @@
 ﻿l_english:
   despotism_junzheng_subtype:0 "军政"
-  despotism_junzheng_subtype_desc:0 "军政是孙中山先生提出的国家建设时期，在军政时期，一切制度悉隶于军政之下。政府一面用兵力以扫除国内之障碍，一面宣传主义以开化全国之人心，而促进国家之统一。"
+  despotism_junzheng_subtype_desc:0 "军政介绍占位符"
   conservative_democracy_xianzheng_subtype:0 "宪政"
-  conservative_democracy_xianzheng_subtype_desc:0 "宪政介绍占位符"
+  conservative_democracy_xianzheng_subtype_desc:0 "宪政，是孙中山先生为中国向民主国家的过度安排的最后成形阶段，如今终于实现了。在孙先生的构想下，处于宪政状态的中国将是名副其实的民主国家，除国民党外，其他党派——甚至是较为极端的党派——也能在立法会拥有投票权与席位，并在理论上有机会成为执政党。在此基础上，公共集会也会被放开，训政时期的媒体管制、政府专权也会逐渐松绑。在三民主义思想的指导下，一个民主的、现代的、文明的、人道的中国，似乎即将作为一股强大的政治力量，在世界上冉冉升起，重塑这个千年古国的辉煌。"
   liberal_democracy_three_principles_of_the_people_subtype:0 "三民主义"
   liberal_democracy_three_principles_of_the_people_subtype_desc:0 "§G三民主义偏民权派§!。民权主义，实行为一般平民所共有的民主政治，而防止欧美现行制度之流弊，人民有选举、罢免、创制、复决四权（政权）以管理政府，政府则有立法、司法、行政、考试、监察五权（治权）以治理国家。其核心观念强调直接民权与权能区分，亦即政府拥有治权，人民则拥有政权。"
   social_democracy_three_principles_of_the_people_subtype:0 "三民主义"

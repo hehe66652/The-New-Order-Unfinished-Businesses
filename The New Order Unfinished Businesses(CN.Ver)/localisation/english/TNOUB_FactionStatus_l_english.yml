@@ -4,7 +4,7 @@
   APTO_Leader_desc: "“团结协定”是纳粹组织的泛欧联盟。颓废国家和他们的堕落腐败组成的旧秩序已经一去不复返了，在德国霸权的指导下，现在的欧洲已经以兄弟情谊和团结取代了它。协定本身由许多章程组成，详细规定了成员国间的经济、军事和政治关系，然而一切章程最终目的都是为了德国的利益。凭借对欧洲事务无与伦比的控制权，团结协定确实是欧洲命运的关键，也是§Y欧洲之主§!——德意志的关键。"
   APTO_Protektorat: "自治区"
   APTO_Protektorat_effect: "[!APTO_Protektorat]"
-  APTO_Protektorat_desc: "§Y自治区§!是中国为国家稳定而设立的特殊民族自治地方，其主权属于中国。\n\nGDP增长率提升：§Y50%§!\nGDP上缴宗主国比率修正：§Y50%§!"
+  APTO_Protektorat_desc: "§Y自治区§!是中国为国家稳定而设立的特殊民族自治地方，其主权属于中国。\n\nGDP增长率提升：§Y5%§!\nGDP上缴宗主国比率修正：§Y100%§!"
   APTO_Protektorat: "保护国"
   APTO_Protektorat_effect: "[!APTO_Protektorat]"
   APTO_Protektorat_desc: "§Y保护国§!是大东亚战争之后独立的国家，原本属于日本。中国为保护新生政权而将其纳入势力范围中\n\nGDP增长率提升：§Y5%§!"
