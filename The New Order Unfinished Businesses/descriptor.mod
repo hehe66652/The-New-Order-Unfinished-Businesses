@@ -1,6 +1,6 @@
-#By JamesRavenlake
+#By TNOUB Developers
 
-name="The New Order Unfinished Businesses(CN.Ver)"
+name="The New Order: Unfinished Businesses"
 version="0.1"
 supported_version="1.11.*"
 
@@ -9,8 +9,8 @@ tags={
 }
 
 dependencies={
-	"The New Order Last Days of Europe(CN.Ver)"
+	"The New Order: Last Days of Europe"
 }
 
 picture="thumbnail.png"
-path="mod/The New Order Unfinished Businesses(CN.Ver)"
+path="mod/The New Order Unfinished Businesses"

@@ -35,4 +35,9 @@ spriteTypes = {
 		name = "GFX_CHI_Raise_Conscription_Standards"
 		texturefile = "gfx/interface/goals/CHI_Raise_Conscription_Standards.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_CHI_War"
+		texturefile = "gfx/interface/goals/CHI_War.dds"
+	}
 }

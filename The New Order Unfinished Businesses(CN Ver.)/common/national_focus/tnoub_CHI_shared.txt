@@ -1248,7 +1248,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_War
-	icon = GFX_AST_war_japan
+	icon = GFX_CHI_War
 	cost = 0.00
 	allow_branch = { has_country_flag = CHI_war_with_japan }
 	completion_reward = {
