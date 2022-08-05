@@ -14,4 +14,4 @@ dependencies={
 }
 
 picture="thumbnail.png"
-path="mod\The New Order Unfinished Businesses(CN Ver.)"
+path="D:/Hearts of Iron IV/mod/The New Order Unfinished Businesses(CN Ver.)"
