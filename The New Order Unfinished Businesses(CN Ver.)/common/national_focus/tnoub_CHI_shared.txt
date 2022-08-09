@@ -48,7 +48,7 @@ shared_focus = {
 		focus = CHI_Military
 	}
 	relative_position_id = CHI_Military
-	x = -4
+	x = -6
 	y = 1
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Hiding_Our_Interests"
@@ -69,7 +69,7 @@ shared_focus = {
 		focus = CHI_Hiding_Our_Interests
 	}
 	relative_position_id = CHI_Military
-	x = -5
+	x = -8
 	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Weapons_Cache"
@@ -81,15 +81,69 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Military_Industrial_Standard_Design
+	id = CHI_Build_High_Walls
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Weapons_Cache
 	}
 	relative_position_id = CHI_Military
-	x = -5
+	x = -8
 	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Build_High_Walls"
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Stock_Up_Rations
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Build_High_Walls
+	}
+	relative_position_id = CHI_Military
+	x = -9
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Stock_Up_Rations"
+		swap_ideas = {
+    		remove_idea = CHI_prepare_for_total_war_1
+    		add_idea = CHI_prepare_for_total_war_2
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Dig_Deep_Hole
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Build_High_Walls
+	}
+	relative_position_id = CHI_Military
+	x = -7
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Dig_Deep_Hole"
+		add_ideas = CHI_prepare_for_total_war_1
+	}
+}
+
+shared_focus = {
+	id = CHI_Military_Industrial_Standard_Design
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Stock_Up_Rations
+	}
+	prerequisite = {
+		focus = CHI_Dig_Deep_Hole
+	}
+	relative_position_id = CHI_Military
+	x = -8
+	y = 6
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Military_Industrial_Standard_Design"
 		custom_effect_tooltip = CHI_Military_Industrial_Standard_Design_tt
@@ -100,87 +154,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Dig_Deep_Hole
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Military_Industrial_Standard_Design
-	}
-	relative_position_id = CHI_Military
-	x = -5
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CHI_Dig_Deep_Hole"
-		add_ideas = CHI_prepare_for_total_war_1
-	}
-}
-
-shared_focus = {
-	id = CHI_Wide_Accumulate_Grain
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Dig_Deep_Hole
-	}
-	relative_position_id = CHI_Military
-	x = -5
-	y = 5
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CHI_Wide_Accumulate_Grain"
-		swap_ideas = {
-    		remove_idea = CHI_prepare_for_total_war_1
-    		add_idea = CHI_prepare_for_total_war_2
-		}
-	}
-}
-
-shared_focus = {
-	id = CHI_Buying_TC
+	id = CHI_Introducing_Foreign_Design
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Hiding_Our_Interests
 	}
 	relative_position_id = CHI_Military
-	x = -3
+	x = -4
 	y = 2
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CHI_Buying_TC"
-		hidden_effect = {
-			set_variable = { CHI_allow_buying_ships = 1 }
-		}
-	}
-}
-
-shared_focus = {
-	id = CHI_Protecting_Japanese_interests
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Buying_TC
-	}
-	relative_position_id = CHI_Military
-	x = -3
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CHI_Protecting_Japanese_interests"
-		custom_effect_tooltip = CHI_Protecting_Japanese_interests_TT
-		hidden_effect = {
-			add_to_variable = { ija_alert = -0.25 } 
-		}
-	}
-}
-
-shared_focus = {
-	id = CHI_Introducing_Foreign_Design
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Protecting_Japanese_interests
-	}
-	relative_position_id = CHI_Military
-	x = -3
-	y = 4
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Introducing_Foreign_Design"
 		hidden_effect = {
@@ -197,8 +179,8 @@ shared_focus = {
 		focus = CHI_Introducing_Foreign_Design
 	}
 	relative_position_id = CHI_Military
-	x = -3
-	y = 5
+	x = -4
+	y = 3
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Purchase_Spare_Parts"
 		hidden_effect = {
@@ -208,18 +190,103 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Distribution_Networks
+	id = CHI_Purchase_Air_Defense_Systems
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Wide_Accumulate_Grain
+		focus = CHI_Introducing_Foreign_Design
 	}
 	prerequisite = {
 		focus = CHI_Purchase_Spare_Parts
 	}
 	relative_position_id = CHI_Military
+	x = -5
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Purchase_Air_Defense_Systems"
+		hidden_effect = {
+			set_variable = { CHI_allow_buying_ships = 1 }
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Buying_TC
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Introducing_Foreign_Design
+	}
+	relative_position_id = CHI_Military
+	x = -3
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Buying_TC"
+		hidden_effect = {
+			set_variable = { CHI_allow_buying_ships = 1 }
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Protecting_Japanese_interests
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Purchase_Air_Defense_Systems
+	}
+	prerequisite = {
+		focus = CHI_Buying_TC
+	}
+	relative_position_id = CHI_Military
 	x = -4
 	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Protecting_Japanese_interests"
+		custom_effect_tooltip = CHI_Protecting_Japanese_interests_TT
+		hidden_effect = {
+			add_to_variable = { ija_alert = -0.25 } 
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Building_Air_Defense_System
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Dig_Deep_Hole
+	}
+	prerequisite = {
+		focus = CHI_Purchase_Air_Defense_Systems
+	}
+	relative_position_id = CHI_Military
+	x = -6
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_Buying_TC"
+		hidden_effect = {
+			set_variable = { CHI_allow_buying_ships = 1 }
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Distribution_Networks
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Military_Industrial_Standard_Design
+	}
+	prerequisite = {
+		focus = CHI_Building_Air_Defense_System
+	}
+	prerequisite = {
+		focus = CHI_Protecting_Japanese_interests
+	}
+	relative_position_id = CHI_Military
+	x = -6
+	y = 7
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CHI_Distribution_Networks"
 		swap_ideas = {
@@ -402,7 +469,7 @@ shared_focus = {
 	}
 	relative_position_id = CHI_Military
 	x = 0
-	y = 6
+	y = 7
 	completion_reward = {
 		
 	}
@@ -416,7 +483,7 @@ shared_focus = {
 		focus = CHI_Military
 	}
 	relative_position_id = CHI_Military
-	x = 4
+	x = 6
 	y = 1
 	completion_reward = {
 		
@@ -431,7 +498,7 @@ shared_focus = {
 		focus = CHI_Soldier
 	}
 	relative_position_id = CHI_Military
-	x = 3
+	x = 4
 	y = 2
 	completion_reward = {
 		
@@ -439,7 +506,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Patriotic_Propaganda
+	id = CHI_Aviation_Academy
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
@@ -454,15 +521,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Cycle_the_Reserves
+	id = CHI_Military_Academy
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Patriotic_Propaganda
+		focus = CHI_Raise_Conscription_Standards
 	}
 	relative_position_id = CHI_Military
-	x = 3
-	y = 4
+	x = 5
+	y = 3
 	completion_reward = {
 		
 	}
@@ -473,7 +540,25 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Cycle_the_Reserves
+		focus = CHI_Aviation_Academy
+	}
+	prerequisite = {
+		focus = CHI_Military_Academy
+	}
+	relative_position_id = CHI_Military
+	x = 4
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Attach_Importance_To_Technical_Officers
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Bloody_Sweat_Not_Shed_Tears
 	}
 	relative_position_id = CHI_Military
 	x = 3
@@ -491,7 +576,7 @@ shared_focus = {
 		focus = CHI_Soldier
 	}
 	relative_position_id = CHI_Military
-	x = 5
+	x = 8
 	y = 2
 	completion_reward = {
 		
@@ -499,30 +584,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Promotion_Young_Officers
+	id = CHI_Patriotic_Propaganda
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Revive_The_Whampoa_Spirit
 	}
 	relative_position_id = CHI_Military
-	x = 5
+	x = 7
 	y = 3
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = CHI_Attach_Importance_To_Technical_Officers
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Promotion_Young_Officers
-	}
-	relative_position_id = CHI_Military
-	x = 5
-	y = 4
 	completion_reward = {
 		
 	}
@@ -533,11 +603,98 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Attach_Importance_To_Technical_Officers
+		focus = CHI_Revive_The_Whampoa_Spirit
 	}
 	relative_position_id = CHI_Military
-	x = 5
+	x = 9
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_General_Political_Warfare_Department
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Patriotic_Propaganda
+	}
+	prerequisite = {
+		focus = CHI_Rebuild_Training_Division
+	}
+	relative_position_id = CHI_Military
+	x = 8
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Crack_Down_Corrupt_Officers
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_General_Political_Warfare_Department
+	}
+	relative_position_id = CHI_Military
+	x = 9
 	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Promotion_Young_Officers
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Bloody_Sweat_Not_Shed_Tears
+	}
+	prerequisite = {
+		focus = CHI_General_Political_Warfare_Department
+	}
+	relative_position_id = CHI_Military
+	x = 6
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_A_Brand_New_Army
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Attach_Importance_To_Technical_Officers
+	}
+	prerequisite = {
+		focus = CHI_Promotion_Young_Officers
+	}
+	relative_position_id = CHI_Military
+	x = 4
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_A_Pro_Military_And_Civilian
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Promotion_Young_Officers
+	}
+	prerequisite = {
+		focus = CHI_Crack_Down_Corrupt_Officers
+	}
+	relative_position_id = CHI_Military
+	x = 8
+	y = 6
 	completion_reward = {
 		
 	}
@@ -548,14 +705,50 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Bloody_Sweat_Not_Shed_Tears
+		focus = CHI_A_Brand_New_Army
 	}
 	prerequisite = {
-		focus = CHI_Rebuild_Training_Division
+		focus = CHI_A_Pro_Military_And_Civilian
 	}
 	relative_position_id = CHI_Military
-	x = 4
-	y = 6
+	x = 6
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Disguised_Inventories
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Distribution_Networks
+	}
+	prerequisite = {
+		focus = CHI_Lengthy_Practice
+	}
+	prerequisite = {
+		focus = CHI_military_missions
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Allow_Women_To_Work
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Disguised_Inventories
+	}
+	relative_position_id = CHI_Military
+	x = -4
+	y = 9
 	completion_reward = {
 		
 	}
@@ -576,7 +769,7 @@ shared_focus = {
 	}
 	relative_position_id = CHI_Military
 	x = 0
-	y = 7
+	y = 8
 	completion_reward = {
 		
 	}
@@ -594,7 +787,7 @@ shared_focus = {
 	}
 	relative_position_id = CHI_Military
 	x = -1
-	y = 8
+	y = 9
 	completion_reward = {
 		
 	}
@@ -612,22 +805,28 @@ shared_focus = {
 	}
 	relative_position_id = CHI_Military
 	x = 1
-	y = 8
+	y = 9
 	completion_reward = {
 		
 	}
 }
 
 shared_focus = {
-	id = CHI_Allow_Women_To_Work
+	id = CHI_Cycle_the_Reserves
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
+		focus = CHI_Distribution_Networks
+	}
+	prerequisite = {
+		focus = CHI_Lengthy_Practice
+	}
+	prerequisite = {
+		focus = CHI_military_missions
 	}
 	relative_position_id = CHI_Military
-	x = -1
-	y = 9
+	x = 4
+	y = 8
 	completion_reward = {
 		
 	}
@@ -638,55 +837,43 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Allow_Women_To_Work
+		focus = CHI_Cycle_the_Reserves
 	}
 	relative_position_id = CHI_Military
-	x = -1
-	y = 10
-	completion_reward = {
-		
-	}
-}
-
-shared_focus = {
-	id = CHI_Control_Media
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
-	}
-	relative_position_id = CHI_Military
-	x = 1
+	x = 4
 	y = 9
 	completion_reward = {
 		
 	}
 }
 
-shared_focus = {
-	id = CHI_Disguised_Inventories
-	icon = GFX_
-	cost = 5.00
-	prerequisite = {
-		focus = CHI_Control_Media
-	}
-	relative_position_id = CHI_Military
-	x = 1
-	y = 10
-	completion_reward = {
-		
-	}
-}
+#shared_focus = {
+#	id = CHI_Control_Media
+#	icon = GFX_
+#	cost = 5.00
+#	prerequisite = {
+#		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
+#	}
+#	relative_position_id = CHI_Military
+#	x = 1
+#	y = 9
+#	completion_reward = {
+#		
+#	}
+#}
 
 shared_focus = {
 	id = CHI_Waking_the_Tiger
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Mil_Propoganda
+		focus = CHI_Allow_Women_To_Work
 	}
 	prerequisite = {
-		focus = CHI_Disguised_Inventories
+		focus = CHI_A_Step_In_The_Right_Direction focus = CHI_A_Step_Too_Far
+	}
+	prerequisite = {
+		focus = CHI_Mil_Propoganda
 	}
 	relative_position_id = CHI_Military
 	x = 0
@@ -696,20 +883,68 @@ shared_focus = {
 	}
 }
 
+##############################################
+# UNIFICATION TREE - MAKE CHINA GREAT AGAIN! #
+##############################################
+
 shared_focus = {
-	id = CHI_Break_the_Agreements
+	id = CHI_Sovereignty
 	icon = GFX_
 	cost = 5.00
-	prerequisite = {
-		focus = CHI_Waking_the_Tiger
+	allow_branch = {
+		has_country_flag = tnoub_chi_remaining_modernization
 	}
-	relative_position_id = CHI_Military
-	x = 0
-	y = 12
+
+	available = {
+		CHI_is_not_in_crisis = yes
+		custom_trigger_tooltip = {
+			tooltip = CHI_remaining_modernization_trigger_tt
+			CHI = {
+				has_country_flag = CHI_Military_Modernized
+			}
+		}
+	}
+	x = 31
+	y = 0
 	completion_reward = {
 		
 	}
 }
+
+shared_focus = {
+	id = CHI_Meet_Xia_Wei
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Sovereignty
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Military
+	x = 4
+	y = 9
+	completion_reward = {
+		
+	}
+}
+
+
+#shared_focus = {
+#	id = CHI_Break_the_Agreements
+#	icon = GFX_
+#	cost = 5.00
+#	prerequisite = {
+#		focus = CHI_Waking_the_Tiger
+#	}
+#	relative_position_id = CHI_Military
+#	x = 0
+#	y = 12
+#	completion_reward = {
+#		
+#	}
+#}
 
 #####################################
 # POLIO TREE - WE NEED TO FIND CURE #

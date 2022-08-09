@@ -1,6 +1,6 @@
 #Update logs
 #每个版本更新，在此记录。
-0.1:Gao Zongwu's Unfinished Businesses-Part 1(In-Dev)
+1.0:Gao Zongwu's Unfinished Businesses-Part 1(In-Dev)
 ·Republic of China [Med]
     ·The Military Modernization
     ·Reunification of China
@@ -9,7 +9,7 @@
     ·Oil Crisis Tree Rework
     ·GAW decisions and focus tree
 ·Nations across the CPS
-0.1:高宗武的未竟之事-第一部分（开发中）
+1.0:高宗武的未竟之事-第一部分（开发中）
 ·中华民国 [中]
     ·军事现代化
     ·中国再统一
@@ -19,19 +19,20 @@
     ·大东亚战争中的决议与国策树
 ·共荣圈诸国
 
-0.2:The White Sun Rise Again-Part 1(In-Dev)
+1.1:The White Sun Rise Again-Part 1(In-Dev)
 ·Yunnan Clique [Med]
     ·China After GAW
-    ·At Least 5 Paths
-0.2:白日初升-第一部分（开发中）
+    ·At Least 7 Paths
+1.1:白日初升-第一部分（开发中）
 ·滇系军阀 [中]
     ·大东亚战争后续
-    ·至少5条路线
-0.3:Country Road,Take Me Home(Future)
+    ·至少7条路线
+
+1.2:Country Road,Take Me Home(Future)
 ·Free France [Long]
     ·WAW
-    ·2 Paths
-0.3:归乡之路（未来）
+    ·4 Paths
+1.2:归乡之路（未来）
 ·自由法国 [长]
     ·西非战争
-    ·2条路线
+    ·4条路线

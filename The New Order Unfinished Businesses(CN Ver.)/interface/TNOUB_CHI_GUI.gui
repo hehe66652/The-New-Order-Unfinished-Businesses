@@ -239,28 +239,28 @@ guiTypes = {
 			position = { x = 50 y = 550 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_max
-			#maxWidth = 480
+			maxWidth = 400
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_available"
 			position = { x = 50 y = 600 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_available
-			#maxWidth = 480
+			maxWidth = 400
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_condition"
 			position = { x = 300 y = 550 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_condition
-			#maxWidth = 480
+			maxWidth = 400
 		}
 		InstantTextBoxType = {
 			name = "CHI_Hiding_Our_Interests_GUI_point_secrecy"
 			position = { x = 300 y = 600 }
 			font = "aldrich_24_outline"
 			text = CHI_Hiding_Our_Interests_GUI_point_secrecy
-			#maxWidth = 480
+			maxWidth = 400
 		}
 
     }

@@ -68,7 +68,6 @@ tnoub_global_debug_decisions = {
 		}
 	}
 
-
 	tnoub_debug_set_great_asain_war_china_victory = {
 		icon = GFX_decision_generic_industry
 
@@ -446,6 +445,27 @@ tnoub_global_debug_decisions = {
 				add_state_core = 811
 				add_state_core = 810
 				add_state_core = 524
+			}
+		}
+	}
+
+	tnoub_debug_show_kuomintang_factions = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = YUN
+		}
+		visible = {
+			NOT = { has_country_flag = tnoub_hide_debug_decisions }
+		}
+		complete_effect = {
+			set_popularities = {
+				social_democracy = 11
+				liberal_democracy = 24
+				conservative_democracy = 19
+				authoritarian_democracy = 23
+				despotism = 18
+				fascism = 5
 			}
 		}
 	}

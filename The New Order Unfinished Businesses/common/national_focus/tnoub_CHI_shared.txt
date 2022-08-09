@@ -92,7 +92,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Wide_Accumulate_Grain
+	id = CHI_Stock_Up_Rations
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
@@ -171,7 +171,7 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
-		focus = CHI_Wide_Accumulate_Grain
+		focus = CHI_Stock_Up_Rations
 	}
 	prerequisite = {
 		focus = CHI_Purchase_Spare_Parts
