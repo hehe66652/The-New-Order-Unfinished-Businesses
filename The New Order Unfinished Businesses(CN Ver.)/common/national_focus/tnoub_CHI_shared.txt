@@ -877,7 +877,7 @@ shared_focus = {
 	}
 	relative_position_id = CHI_Military
 	x = 0
-	y = 11
+	y = 10
 	completion_reward = {
 		
 	}
@@ -922,29 +922,1055 @@ shared_focus = {
 		CHI_is_not_in_crisis = yes
 	}
 	cancel_if_invalid = yes
-	relative_position_id = CHI_Military
+	relative_position_id = CHI_Sovereignty
+	x = -7
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Dispel_Doubts
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Meet_Xia_Wei
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -8
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Restart_War_Machine
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Meet_Xia_Wei
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Love_For_Homeland
+	icon = GFX_
+	cost = 5.00
+    prerequisite = {
+		focus = CHI_Dispel_Doubts
+	}
+    prerequisite = {
+		focus = CHI_Restart_War_Machine
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -8
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Never_Give_Up_Until_Die
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Calm_Down
+    }
+	prerequisite = {
+		focus = CHI_Love_For_Homeland
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -9
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Calm_Down
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Never_Give_Up_Until_Die
+    }
+	prerequisite = {
+		focus = CHI_Love_For_Homeland
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -7
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Wolf_Soldier
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Never_Give_Up_Until_Die  focus = CHI_Calm_Down
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -8
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Loyal_Guangxi
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Wolf_Soldier
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -8
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Visit_Zhang_Zhizhong
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Sovereignty
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Destroy_Remants
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Incorporate_Remnants
+    }
+	prerequisite = {
+		focus = CHI_Visit_Zhang_Zhizhong
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -5
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Incorporate_Remnants
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Destroy_Remants
+    }
+	prerequisite = {
+		focus = CHI_Visit_Zhang_Zhizhong
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -3
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Another_Rupture
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Destroy_Remants
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -6
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Appease_Minorities
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Destroy_Remants  focus = CHI_Incorporate_Remnants
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -4
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Another_Collaboration
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Incorporate_Remnants
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -2
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Reclaim_And_Garrision
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Another_Rupture
+	}
+    prerequisite = {
+	    focus = CHI_Appease_Minorities
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -5
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Production_And_Construction_Corps
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Another_Collaboration
+	}
+    prerequisite = {
+	    focus = CHI_Appease_Minorities
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -3
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Unstable_Xinjiang
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Reclaim_And_Garrision  focus = CHI_Production_And_Construction_Corps
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -4
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Appointment_With_Liu_Wenhui
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Sovereignty
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Connect_Road
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Appointment_With_Liu_Wenhui
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -2
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Wooing_Lower_level_Officials
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Appointment_With_Liu_Wenhui
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Explore_the_Terrain
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Appointment_With_Liu_Wenhui
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 2
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Hydraulic_Engineering
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Connect_Road
+	}
+    prerequisite = {
+	    focus = CHI_Wooing_Lower_level_Officials
+	}
+    prerequisite = {
+	    focus = CHI_Explore_the_Terrain
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Light_the_Lights
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Hydraulic_Engineering
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Resident_Officials
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Light_the_Lights
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Regression_of_Xikang
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Resident_Officials
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Support_Ma_Jiyuan
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Sovereignty
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
 	x = 4
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Stick_Out_an_Olive_Branch
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Support_Ma_Jiyuan
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 3
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Host_Refugees
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Support_Ma_Jiyuan
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 5
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Provide_Military_Advice
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Stick_Out_an_Olive_Branch
+	}
+    prerequisite = {
+	    focus = CHI_Host_Refugees
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 2
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Camouflage_Volunteers
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Stick_Out_an_Olive_Branch
+	}
+    prerequisite = {
+	    focus = CHI_Host_Refugees
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 4
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Provide_War_Materiel
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Stick_Out_an_Olive_Branch
+	}
+    prerequisite = {
+	    focus = CHI_Host_Refugees
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 6
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Negotiation
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Provide_Military_Advice
+	}
+    prerequisite = {
+	    focus = CHI_Camouflage_Volunteers
+	}
+    prerequisite = {
+	    focus = CHI_Provide_War_Materiel
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 4
+	y = 6
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Vengeful_Qinghai
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Negotiation
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 4
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_invite_Fu_Zuoyi
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Sovereignty
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 7
+	y = 1
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Transfer_of_Military_Power
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_invite_Fu_Zuoyi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 6
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Economic_Integration
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_invite_Fu_Zuoyi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 8
+	y = 2
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_CCP_Sympathizers
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Transfer_of_Military_Power
+	}
+    prerequisite = {
+	    focus = CHI_Economic_Integration
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 8
+	y = 3
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Suppress_Sympathizers
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Ignore_Sympathizers
+    }
+	prerequisite = {
+	    focus = CHI_CCP_Sympathizers
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 7
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Ignore_Sympathizers
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Suppress_Sympathizers
+    }
+	prerequisite = {
+	    focus = CHI_CCP_Sympathizers
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 9
+	y = 4
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Incite_Hatred_of_Japan
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Suppress_Sympathizers  focus = CHI_Ignore_Sympathizers
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 8
+	y = 5
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Revengeful_Shanxi
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Incite_Hatred_of_Japan
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 8
+	y = 7
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Redistribute_The_War_Zone
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Loyal_Guangxi
+	}
+    prerequisite = {
+	    focus = CHI_Unstable_Xinjiang
+	}
+    prerequisite = {
+	    focus = CHI_Regression_of_Xikang
+	}
+    prerequisite = {
+	    focus = CHI_Vengeful_Qinghai
+	}
+    prerequisite = {
+	    focus = CHI_Revengeful_Shanxi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Negotiations_with_Tibet
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Military_Operations
+    }
+	prerequisite = {
+	    focus = CHI_Loyal_Guangxi
+	}
+    prerequisite = {
+	    focus = CHI_Unstable_Xinjiang
+	}
+    prerequisite = {
+	    focus = CHI_Regression_of_Xikang
+	}
+    prerequisite = {
+	    focus = CHI_Vengeful_Qinghai
+	}
+    prerequisite = {
+	    focus = CHI_Revengeful_Shanxi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -2
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Military_Operations
+	icon = GFX_
+	cost = 5.00
+    mutually_exclusive = {
+        focus = CHI_Negotiations_with_Tibet
+    }
+	prerequisite = {
+	    focus = CHI_Loyal_Guangxi
+	}
+    prerequisite = {
+	    focus = CHI_Unstable_Xinjiang
+	}
+    prerequisite = {
+	    focus = CHI_Regression_of_Xikang
+	}
+    prerequisite = {
+	    focus = CHI_Vengeful_Qinghai
+	}
+    prerequisite = {
+	    focus = CHI_Revengeful_Shanxi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 2
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Unify_Road_Standards
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Loyal_Guangxi
+	}
+    prerequisite = {
+	    focus = CHI_Unstable_Xinjiang
+	}
+    prerequisite = {
+	    focus = CHI_Regression_of_Xikang
+	}
+    prerequisite = {
+	    focus = CHI_Vengeful_Qinghai
+	}
+    prerequisite = {
+	    focus = CHI_Revengeful_Shanxi
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 7
+	y = 8
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Transfer_Officer
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Redistribute_The_War_Zone
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = -5
 	y = 9
 	completion_reward = {
 		
 	}
 }
 
+shared_focus = {
+	id = CHI_Autonomous_Tibet
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Negotiations_with_Tibet  focus = CHI_Military_Operations
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 9
+	completion_reward = {
+		
+	}
+}
 
-#shared_focus = {
-#	id = CHI_Break_the_Agreements
-#	icon = GFX_
-#	cost = 5.00
-#	prerequisite = {
-#		focus = CHI_Waking_the_Tiger
-#	}
-#	relative_position_id = CHI_Military
-#	x = 0
-#	y = 12
-#	completion_reward = {
-#		
-#	}
-#}
+shared_focus = {
+	id = CHI_Unify_Frastructure
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Unify_Road_Standards
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 5
+	y = 9
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Half_a_Begonia_Leaf
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+	    focus = CHI_Transfer_Officer
+	}
+    prerequisite = {
+	    focus = CHI_Autonomous_Tibet
+	}
+    prerequisite = {
+	    focus = CHI_Unify_Frastructure
+	}
+	available = {
+		CHI_is_not_in_crisis = yes
+	}
+	cancel_if_invalid = yes
+	relative_position_id = CHI_Sovereignty
+	x = 0
+	y = 10
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CHI_Break_the_Agreements
+	icon = GFX_
+	cost = 5.00
+	prerequisite = {
+		focus = CHI_Waking_the_Tiger
+	}
+	prerequisite = {
+		focus = CHI_Half_a_Begonia_Leaf
+	}
+	relative_position_id = CHI_Sovereignty
+
+	x = -11
+	y = 11
+	completion_reward = {
+		
+	}
+}
 
 #####################################
 # POLIO TREE - WE NEED TO FIND CURE #

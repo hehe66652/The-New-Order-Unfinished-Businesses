@@ -229,9 +229,7 @@
   CHI_Cycle_the_Reserves_desc:0 "占位符"
   CHI_Mil_Propoganda:0 "军国主义宣传"
   CHI_Mil_Propoganda_desc:0 "占位符"
-  CHI_Break_the_Agreements:0 "撕毁条约"
-  CHI_Break_the_Agreements_desc:0 "占位符"
-  CHI_Break_the_Agreements_tt:0 "天杀的小日本鬼子，我们就算拼了老命也要把你们这帮狗日的畜生赶出中国！中国万岁！"
+
 
   CHI_Protecting_Japanese_interests_TT:0 "§R日本正在寻求我们的支持，回报是同意我们有限的再军事化。§!\n§G显著地§!降低§R帝国陆军警惕度§!。\n"
   chi.Nagasaki_Summit_AcceptJapan.tt:0 "§R我们将度过更艰险的难关…§!"
@@ -253,6 +251,54 @@
   CHI_IJAAlert_Slightup_tt:0 "§R略微§!提高§R帝国陆军警惕度§!。\n"
   CHI_IJA_Alert_Slightdown_tt:0 "§G略微§!降低§R帝国陆军警惕度§!。\n"
   CHI_IJA_Alert_Significantdown_tt:0 "§G显著§!降低§R帝国陆军警惕度§!。\n"
+
+
+####  Unification Tree  |  主权统一国策  ####
+
+  CHI_Sovereignty:0 "主权"
+  CHI_Sovereignty_desc:0 "占位符"
+  CHI_Sovereignty_tt:0 "占位符"
+  CHI_Meet_Xia_Wei:0 "会见夏威"
+  CHI_Meet_Xia_Wei_desc:0 "占位符"
+  CHI_Dispel_Doubts:0 "打消质疑"
+  CHI_Dispel_Doubts_desc:0 "占位符"
+  CHI_Restart_War_Machine:0 "重启战争机器"
+  CHI_Restart_War_Machine_desc:0 "占位符"
+  CHI_Love_For_Homeland:0 "炙热的爱"
+  CHI_Love_For_Homeland_desc:0 "占位符"
+  CHI_Never_Give_Up_Until_Die:0 "不死不休"
+  CHI_Never_Give_Up_Until_Die_desc:0 "占位符"
+  CHI_Calm_Down:0 "稍安勿躁"
+  CHI_Calm_Down_desc:0 "占位符"
+  CHI_Wolf_Soldier:0 "狼兵"
+  CHI_Wolf_Soldier_desc:0 "占位符"
+  CHI_Loyal_Guangxi:0 "忠诚的广西"
+  CHI_Loyal_Guangxi_desc:0 "占位符"
+  CHI_Visit_Zhang_Zhizhong:0 "拜访张治中"
+  CHI_Visit_Zhang_Zhizhong_desc:0 "占位符"
+  CHI_Destroy_Remants:0 "剿灭残部"
+  CHI_Destroy_Remants_desc:0 "占位符"
+  CHI_Incorporate_Remnants:0 "收编残部"
+  CHI_Incorporate_Remnants_desc:0 "占位符"
+  CHI_Another_Rupture:0 "又一次决裂"
+  CHI_Another_Rupture_desc:0 "占位符"
+  CHI_Appease_Minorities:0 "安抚少数民族"
+  CHI_Appease_Minorities_desc:0 "占位符"
+  CHI_Another_Collaboration:0 "又一次合作"
+  CHI_Another_Collaboration_desc:0 "占位符"
+  CHI_Reclaim_And_Garrision:0 "屯田戍边"
+  CHI_Reclaim_And_Garrision_desc:0 "占位符"
+  CHI_Production_And_Construction_Corps:0 "生产建设兵团"
+  CHI_Production_And_Construction_Corps_desc:0 "占位符"
+  CHI_Unstable_Xinjiang:0 "不稳的新疆"
+  CHI_Unstable_Xinjiang_desc:0 "占位符"
+
+
+
+
+  CHI_Break_the_Agreements:0 "撕毁条约"
+  CHI_Break_the_Agreements_desc:0 "占位符"
+  CHI_Break_the_Agreements_tt:0 "天杀的小日本鬼子，我们就算拼了老命也要把你们这帮狗日的畜生赶出中国！中国万岁！"
 
 
 ####  Great Asian War Tree  |  大东亚战争国策  ####
