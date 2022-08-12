@@ -129,11 +129,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_CHI_Military_Doctrine_shine"
-		texturefile = "gfx/interface/goals/CHI_Military_Doctrine.dds"
+		name = "GFX_CHI_Military_Policy_shine"
+		texturefile = "gfx/interface/goals/CHI_Military_Policy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI_Military_Doctrine.dds"
+			animationmaskfile = "gfx/interface/goals/CHI_Military_Policy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -146,7 +146,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI_Military_Doctrine.dds"
+			animationmaskfile = "gfx/interface/goals/CHI_Military_Policy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

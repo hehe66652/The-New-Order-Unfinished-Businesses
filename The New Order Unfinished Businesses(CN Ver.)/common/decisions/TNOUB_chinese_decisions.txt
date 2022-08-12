@@ -1029,7 +1029,7 @@ CHI_Hiding_Our_Interests_Category = {
 		days_re_enable = 5
 		days_remove = 5
 		cost = 75
-		fire_only_once = no #Just for debug,remember to change it
+		fire_only_once = yes
 
 		remove_effect = {
 			set_country_flag = CHI_fujian_point_build

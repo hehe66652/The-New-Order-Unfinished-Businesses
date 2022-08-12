@@ -26,7 +26,7 @@ tnoub_global_debug_decisions = {
 		}
 	}
 
-	tnoub_debug_load_military_tree = {
+	tnoub_debug_load_remaining_modernization_tree = {
 		icon = GFX_decision_generic_industry
 
 		allowed = {
@@ -37,8 +37,8 @@ tnoub_global_debug_decisions = {
 		}
 		complete_effect = {
 			load_focus_tree = tnoub_china_remaining_modernization
-			set_country_flag = tnoub_chi_remaining_modernization
-			clr_country_flag = tnoub_chi_polio
+			set_country_flag = CHI_Remaining_Modernization
+			clr_country_flag = CHI_Polio
 			clr_country_flag = CHI_Modernization
 			clr_global_flag = CHI_Western_Insurrection_Crisis
 			clr_country_flag = CHI_show_western_tree_hidden_middle
@@ -58,7 +58,7 @@ tnoub_global_debug_decisions = {
 		}
 		complete_effect = {
 			load_focus_tree = tnoub_china_remaining_modernization
-			set_country_flag = tnoub_chi_polio
+			set_country_flag = CHI_Polio
 			clr_country_flag = CHI_Modernization
 			clr_global_flag = CHI_Western_Insurrection_Crisis
 			clr_country_flag = CHI_show_western_tree_hidden_middle
@@ -215,8 +215,8 @@ tnoub_global_debug_decisions = {
 			clr_country_flag = CHI_show_western_tree_hidden_japan
 			clr_country_flag = CHI_Nanjing_Crisis
 			clr_country_flag = CHI_war_with_japan
-			clr_country_flag = CHI_tnoub_chi_polio
-			clr_country_flag = tnoub_chi_remaining_modernization
+			clr_country_flag = CHI_CHI_Polio
+			clr_country_flag = CHI_Remaining_Modernization
 		}
 	}
 

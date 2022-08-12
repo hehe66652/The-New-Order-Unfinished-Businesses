@@ -16,8 +16,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHI_Buying_TC.dds"
 	}
 	SpriteType = {
-		name = "GFX_CHI_Military_Doctrine"
-		texturefile = "gfx/interface/goals/CHI_Military_Doctrine.dds"
+		name = "GFX_CHI_Military_Policy"
+		texturefile = "gfx/interface/goals/CHI_Military_Policy.dds"
 	}
 	SpriteType = {
 		name = "GFX_CHI_New_Theory"

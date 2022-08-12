@@ -18,7 +18,7 @@ shared_focus = {
 	icon = GFX_CHI_Military
 	cost = 0.00
 	allow_branch = {
-		has_country_flag = tnoub_chi_remaining_modernization
+		has_country_flag = CHI_Remaining_Modernization
 	}
 
 	available = {
@@ -300,8 +300,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Military_Doctrine
-	icon = GFX_CHI_Military_Doctrine
+	id = CHI_Military_Policy
+	icon = GFX_CHI_Military_Policy
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Military
@@ -322,7 +322,7 @@ shared_focus = {
 		focus = CHI_Wisdom_of_The_Past
 	}
 	prerequisite = {
-		focus = CHI_Military_Doctrine
+		focus = CHI_Military_Policy
 	}
 	relative_position_id = CHI_Military
 	x = -1
@@ -395,7 +395,7 @@ shared_focus = {
 		focus = CHI_New_Theory
 	}
 	prerequisite = {
-		focus = CHI_Military_Doctrine
+		focus = CHI_Military_Policy
 	}
 	relative_position_id = CHI_Military
 	x = 1
@@ -892,7 +892,7 @@ shared_focus = {
 	icon = GFX_
 	cost = 5.00
 	allow_branch = {
-		has_country_flag = tnoub_chi_remaining_modernization
+		has_country_flag = CHI_Remaining_Modernization
 	}
 
 	available = {
@@ -1765,7 +1765,7 @@ shared_focus = {
 	}
 	cancel_if_invalid = yes
 	relative_position_id = CHI_Sovereignty
-	x = -
+	x = -7
 	y = 8
 	completion_reward = {
 		
@@ -1981,7 +1981,7 @@ shared_focus = {
 	icon = GFX_
 	cost = 0.00
 	allow_branch = {
-		has_country_flag = tnoub_chi_polio
+		has_country_flag = CHI_Polio
 	}
 	x = 9
 	y = 13
