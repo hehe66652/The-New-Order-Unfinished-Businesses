@@ -101,3 +101,16 @@ country_event = { #Hiding Our Interests Decisions
 		}
 	}
 }
+
+country_event = { #Military Reform
+	id = tnoub_chi.100
+	title = tnoub_chi.100.t
+	desc = tnoub_chi.100.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tnoub_chi.100.a
+	}
+}

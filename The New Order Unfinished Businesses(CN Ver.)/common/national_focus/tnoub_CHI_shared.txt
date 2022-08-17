@@ -33,10 +33,14 @@ shared_focus = {
 		custom_effect_tooltip = CHI_Military_tt
 		hidden_effect = {
 			country_event = {
+    			id = tnoub_chi.100
+			}
+			country_event = {
     			id = tnoub_chi.3
+				days = 5
+    			random_hours = 6
 			}
 		}
-		
 	}
 }
 
@@ -521,7 +525,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CHI_Military_Academy
+	id = CHI_Naval_Academy
 	icon = GFX_
 	cost = 5.00
 	prerequisite = {
@@ -543,7 +547,7 @@ shared_focus = {
 		focus = CHI_Aviation_Academy
 	}
 	prerequisite = {
-		focus = CHI_Military_Academy
+		focus = CHI_Naval_Academy
 	}
 	relative_position_id = CHI_Military
 	x = 4

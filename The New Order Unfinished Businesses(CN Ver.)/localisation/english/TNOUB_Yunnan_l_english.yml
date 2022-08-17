@@ -18,6 +18,8 @@
 # PARTY LOCALISATION  |  政党名称本地化 #
 ########################################
 
+  ####  After KMT Unified  |  国民党统一后  ####
+
   ROC_kuomintang_social_democracy_party:0 "中国国民党"
   ROC_kuomintang_social_democracy_party_long:0 "中国国民党"
   ROC_kuomintang_liberal_democracy_party:0 "中国国民党"
@@ -34,6 +36,8 @@
   YUN_ROC_authoritarian_democracy_party:0 "民主进步党"
   YUN_ROC_authoritarian_democracy_party_long:0 "民主进步党"
 
+  ####  Funny Things  |  滑稽的东西  ####
+
   funny_dengism_cpc:0 "中国共产党"
   funny_dengism_cpc_long:0 "中国共产党"
 
@@ -44,3 +48,16 @@
 
   POLITICS_DENG_XIAOPING_DESC:0 "邓 噔 咚" #FUNNY DECISION
   YUN_deng_xiaoping:0 "邓小平"
+
+
+#######################################
+# DECISION LOCALISATION  |  决议本地化 #
+#######################################
+
+  ####  Xunzheng  |  训政  ####
+
+  YUN_Xunzheng_Category:0 "训政"
+
+  ####  Kuomintang Situation  |  国民党现状  ####
+
+  YUN_Kuomintang_Situation_Category:0 "国民党现状"

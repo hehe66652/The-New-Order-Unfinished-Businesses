@@ -1,0 +1,15 @@
+YUN_Xunzheng_Category = {	#训政
+	icon = GFX_
+
+	visible = {
+		has_country_flag = TNOUB_YUN_Xunzheng
+	}
+}
+
+YUN_Kuomintang_Situation_Category = {	#国民党现状
+	icon = GFX_
+
+	visible = {
+		has_country_flag = TNOUB_YUN_Xunzheng
+	}
+}
