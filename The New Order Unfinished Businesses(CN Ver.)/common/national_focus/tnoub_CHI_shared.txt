@@ -86,7 +86,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Build_High_Walls
-	icon = GFX_
+	icon = GFX_COG_Fortify_The_Border
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Weapons_Cache
@@ -102,7 +102,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Stock_Up_Rations
-	icon = GFX_
+	icon = GFX_GER_SGR_feed_the_soldiers
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Build_High_Walls
@@ -121,7 +121,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Dig_Deep_Hole
-	icon = GFX_
+	icon = GFX_GOR_securing_the_factories
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Build_High_Walls
@@ -137,7 +137,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Military_Industrial_Standard_Design
-	icon = GFX_
+	icon = GFX_GER_SGR_houses_to_factories
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Stock_Up_Rations
@@ -195,7 +195,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Purchase_Air_Defense_Systems
-	icon = GFX_
+	icon = GFX_URL_We_Have_What_We_Have
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Introducing_Foreign_Design
@@ -256,7 +256,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Building_Air_Defense_System
-	icon = GFX_
+	icon = GFX_SVR_Cast_Them_Down
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Dig_Deep_Hole
@@ -357,7 +357,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Tactical_Battle_Group
-	icon = GFX_
+	icon = GFX_KOM_army_for_the_world
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Combined_Operations
@@ -375,7 +375,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_CCCI
-	icon = GFX_
+	icon = GFX_GRO_Colonial_information_stations
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Tactical_Battle_Group
@@ -415,7 +415,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Fully_Prepared
-	icon = GFX_
+	icon = GFX_ORE_adapting_their_strategies
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Wisdom_of_The_Past
@@ -430,7 +430,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Build_The_Advantage
-	icon = GFX_
+	icon = GFX_Tour_The_Panzer_Fleet
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Fully_Prepared
@@ -448,7 +448,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Final_Word
-	icon = GFX_
+	icon = GFX_HGR_Military_Preference
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Build_The_Advantage
@@ -466,7 +466,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Lengthy_Practice
-	icon = GFX_
+	icon = GFX_SGR_Reforging_the_heer
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_CCCI focus = CHI_Final_Word
@@ -541,7 +541,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Bloody_Sweat_Not_Shed_Tears
-	icon = GFX_
+	icon = GFX_SBA_learning_from_experience
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Aviation_Academy
@@ -604,7 +604,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Rebuild_Training_Division
-	icon = GFX_
+	icon = GFX_KEM_A_Standing_Army
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Revive_The_Whampoa_Spirit
@@ -670,7 +670,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_A_Brand_New_Army
-	icon = GFX_
+	icon = GFX_TNO_Generic_Combined_Arms
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Attach_Importance_To_Technical_Officers
@@ -706,7 +706,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_military_missions
-	icon = GFX_
+	icon = GFX_GER_irregulars_to_infanterie
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_A_Brand_New_Army
@@ -838,7 +838,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Mil_Propoganda
-	icon = GFX_
+	icon = GFX_MGN_Foreign_Instructors
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Cycle_the_Reserves
@@ -868,7 +868,7 @@ shared_focus = {
 
 shared_focus = {
 	id = CHI_Waking_the_Tiger
-	icon = GFX_
+	icon = GFX_CHI_Waking_the_Tiger
 	cost = 5.00
 	prerequisite = {
 		focus = CHI_Allow_Women_To_Work

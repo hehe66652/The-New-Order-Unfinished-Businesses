@@ -1,0 +1,13 @@
+﻿l_english:
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_GAW_NLF: "在大东亚战争的战火中，§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!殖民政府。"
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_GAW_CP: "在大东亚战争的战火中，§Y[winning_country.GetNameWithFlag]§!击败了胆敢反抗的§Y[losing_country.GetNameWithFlag]§!。"
+
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_FL_FFR: "在法国解放战争中，§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!伪政权，光复了法兰西大地。"
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_FL_FRA: "在法国保卫战中，§Y[winning_country.GetNameWithFlag]§!击败了旧时代遗留的§Y[losing_country.GetNameWithFlag]§!，成功维护了法国的稳定。"
+
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_ER_China: "在少数民族叛乱中，§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!分裂势力，维护了中国的统一。"
+  TNOUB_PEACE_POPUP_WAR_CONSLUSION_ER_Ethnics: "在少数民族叛乱中，§Y[winning_country.GetNameWithFlag]§!击退了§Y[losing_country.GetNameWithFlag]§!政府，得到了民族的自由。"
+
+  TNOUB_PEACE_POPUP_FLAVOR_MAN: "我的家在东北松花江上，那里有我的同胞，还有那衰老的爹娘。"
+  TNOUB_PEACE_POPUP_FLAVOR_GAN: "疯将军被打倒了。"
+  TNOUB_PEACE_POPUP_FLAVOR_GNG: "法团之国轰然倒塌。"

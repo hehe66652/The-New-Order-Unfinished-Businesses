@@ -570,4 +570,22 @@ scripted_gui = {
 			}
         }
     }
+
+	TNO_CHI_Military_GUI = { 
+		context_type = decision_category
+		window_name = "TNO_CHI_Military_GUI"
+		dirty = TNO_CHI_Military_GUI_dirty
+		visible = {
+			tag = CHI
+		}
+		effects = {
+		}
+		triggers = {
+		}
+		properties = {
+			CHI_Edu_GUI_Modernisation = {
+				frame = CHI_GUI_edu_modernisation
+			}
+		}
+	}
 }

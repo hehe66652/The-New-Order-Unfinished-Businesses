@@ -4,6 +4,8 @@ CHI_Remilitarization_category = {	#中国再武装
 	visible = {
 		has_country_flag = TNOUB_CHI_Remilitarization
 	}
+
+	scripted_gui = TNO_CHI_Military_GUI
 }
 
 CHI_Hiding_Our_Interests_Category = {	#掩饰我方目的

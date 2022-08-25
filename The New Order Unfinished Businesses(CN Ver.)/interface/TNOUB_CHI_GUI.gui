@@ -67,72 +67,72 @@ guiTypes = {
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_unbuild"
-			position = { x = 355 y = 175 }
+			position = { x = 362 y = 177 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangsu_build"
-			position = { x = 355 y = 175 }
+			position = { x = 362 y = 177 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_unbuild"
-			position = { x = 355 y = 245 }
+			position = { x = 357 y = 247 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_jiangxi_build"
-			position = { x = 355 y = 245 }
+			position = { x = 357 y = 247 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_unbuild"
-			position = { x = 285 y = 245 }
+			position = { x = 287 y = 247 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_changde_build"
-			position = { x = 285 y = 245 }
+			position = { x = 287 y = 247 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_unbuild"
-			position = { x = 355 y = 65 }
+			position = { x = 357 y = 67 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_wuhan_shijiazhuang_build"
-			position = { x = 350 y = 60 }
+			position = { x = 357 y = 67 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_unbuild"
-			position = { x = 185 y = 265 }
+			position = { x = 187 y = 267 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_changde_chongqing_build"
-			position = { x = 185 y = 265 }
+			position = { x = 187 y = 267 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_unbuild"
-			position = { x = 70 y = 265 }
+			position = { x = 72 y = 267 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_chongqing_yunnan_build"
-			position = { x = 70 y = 265 }
+			position = { x = 72 y = 267 }
 		}
 		iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_unbuild"
-			position = { x = 365 y = 305 }
+			position = { x = 367 y = 307 }
 		}
         iconType = {
 			name = "CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build"
 			quadTextureSprite = "GFX_CHI_Hiding_Our_Interests_GUI_railway_jiangxi_fujian_build"
-			position = { x = 365 y = 305 }
+			position = { x = 367 y = 307 }
 		}
 
 		#Points
@@ -264,4 +264,102 @@ guiTypes = {
 		}
 
     }
+
+	#Military Modernisation GUI
+	#containerWindowType = {
+	#	name = "TNO_CHI_Edu_GUI"
+	#	size = { width = 500 height = 500 }
+	#	position = { x = 0 y = 0 }
+	#			
+	#	instantTextboxType = {
+	#		name = "CHI_Edu_GUI_desc"
+	#		position = { x = 10 y = 0 }
+	#		font = "aldrich_18_outline"
+	#		text = CHI_GUI_Edu_tt
+	#		maxWidth = 481
+	#		maxHeight = 300
+	#		format = left
+	#	}
+#
+	#	instantTextboxType = {
+	#		name = "CHI_GUI_Edu_Modernisation"
+	#		position = { x = 10 y = 200 }
+	#		font = "aldrich_32_outline"
+	#		text = CHI_GUI_Edu_Modernisation_tt
+	#		maxWidth = 500
+	#		maxHeight = 30
+	#		format = center
+	#	}	
+	#	iconType = {
+	#		name = "CHI_Edu_GUI_Modernisation"
+	#		quadTextureSprite = "GFX_CHI_Modernisation_GUI"
+	#		position = { x = 25 y = 270 }
+	#	}
+	#	iconType = {
+	#		name = "CHI_Edu_GUI_frame"
+	#		spriteType = "GFX_CHI_Modernisation_GUI_frame"
+	#		position = { x = 25 y = 271 }
+	#		pdx_tooltip = CHI_GUI_Edu_Modernisation_desc_tt
+	#		pdx_tooltip_delayed = CHI_GUI_Edu_Modernisation_desc_delay_tt
+	#	}
+#
+	#	instantTextboxType = {
+	#		name = "CHI_GUI_Edu_Efficiency"
+	#		position = { x = 10 y = 330 }
+	#		font = "aldrich_18_outline"
+	#		text = CHI_GUI_Edu_Efficiency_tt
+	#		maxWidth = 480
+	#		maxHeight = 70
+	#		format = left
+	#	}		
+	#}
+
+	#Edu->Military
+	containerWindowType = {
+		name = "TNO_CHI_Military_GUI"
+		size = { width = 500 height = 300 }
+		position = { x = 0 y = 0 }
+				
+		#instantTextboxType = {
+		#	name = "CHI_Military_GUI_desc"
+		#	position = { x = 10 y = 0 }
+		#	font = "aldrich_18_outline"
+		#	text = CHI_GUI_Military_tt
+		#	maxWidth = 481
+		#	maxHeight = 300
+		#	format = left
+		#}
+
+		instantTextboxType = {
+			name = "CHI_GUI_Military_Modernisation"
+			position = { x = 10 y = 20 }
+			font = "aldrich_32_outline"
+			text = CHI_GUI_Military_Modernisation_tt
+			maxWidth = 500
+			maxHeight = 30
+			format = center
+		}	
+		iconType = {
+			name = "CHI_Military_GUI_Modernisation"
+			quadTextureSprite = "GFX_CHI_Modernisation_GUI"
+			position = { x = 25 y = 90 }
+		}
+		iconType = {
+			name = "CHI_Military_GUI_frame"
+			spriteType = "GFX_CHI_Modernisation_GUI_frame"
+			position = { x = 25 y = 91 }
+			pdx_tooltip = CHI_GUI_Military_Modernisation_desc_tt
+			pdx_tooltip_delayed = CHI_GUI_Military_Modernisation_desc_delay_tt
+		}
+
+		instantTextboxType = {
+			name = "CHI_GUI_Military_Efficiency"
+			position = { x = 10 y = 150 }
+			font = "aldrich_18_outline"
+			text = CHI_GUI_Military_Efficiency_tt
+			maxWidth = 480
+			maxHeight = 70
+			format = left
+		}		
+	}
 }

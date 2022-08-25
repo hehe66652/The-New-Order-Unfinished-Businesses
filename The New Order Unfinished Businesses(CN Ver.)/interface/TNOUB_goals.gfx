@@ -67,7 +67,12 @@ spriteTypes = {
 		name = "GFX_CHI_Naval_Academy"
 		texturefile = "gfx/interface/goals/CHI_Naval_Academy.dds"
 	}
-	
+
+	SpriteType = {
+		name = "GFX_CHI_Attach_Importance_To_Technical_Officers"
+		texturefile = "gfx/interface/goals/CHI_Attach_Importance_To_Technical_Officers.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_CHI_Revive_The_Whampoa_Spirit"
 		texturefile = "gfx/interface/goals/CHI_Revive_The_Whampoa_Spirit.dds"
@@ -81,6 +86,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CHI_General_Political_Warfare_Department"
 		texturefile = "gfx/interface/goals/CHI_General_Political_Warfare_Department.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_Crack_Down_Corrupt_Officers"
+		texturefile = "gfx/interface/goals/CHI_Crack_Down_Corrupt_Officers.dds"
 	}
 
 	SpriteType = {
@@ -114,12 +124,16 @@ spriteTypes = {
 		name = "GFX_CHI_A_Step_Too_Far"
 		texturefile = "gfx/interface/goals/CHI_A_Step_Too_Far.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_CHI_Cycle_the_Reserves"
 		texturefile = "gfx/interface/goals/CHI_Cycle_the_Reserves.dds"
 	}
 
-
+	SpriteType = {
+		name = "GFX_CHI_Waking_the_Tiger"
+		texturefile = "gfx/interface/goals/CHI_Waking_the_Tiger.dds"
+	}
 
 
 	SpriteType = {

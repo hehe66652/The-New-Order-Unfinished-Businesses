@@ -1011,6 +1011,11 @@ CHI_Hiding_Our_Interests_Category = {
 
 		remove_effect = {
 			set_country_flag = CHI_yunnan_point_build
+			set_variable = { CHI_Hiding_Our_Interests_GUI_point_max_yunnan = 500 }
+            	set_variable = { CHI_Hiding_Our_Interests_GUI_point_available_yunnan = 0 }
+				set_variable = { CHI_Hiding_Our_Interests_GUI_point_condition_yunnan = 75 }
+            	set_variable = { CHI_Hiding_Our_Interests_GUI_point_secrecy_yunnan = 100 }
+			}
 		}
 	}
 	the_fujian_cache = {
