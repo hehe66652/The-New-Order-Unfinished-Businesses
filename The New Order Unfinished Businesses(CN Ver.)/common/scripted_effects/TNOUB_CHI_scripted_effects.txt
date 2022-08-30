@@ -1,0 +1,13 @@
+
+###Scripted Effects for China###
+
+CHI_GUI_Mil_Modernisation_setup = {
+	set_variable = { CHI_GUI_mil_modernisation = CHI_GUI_military_modernisation }
+	multiply_variable = { CHI_GUI_mil_modernisation = 100 }
+	clamp_variable = {
+		var = CHI_GUI_mil_modernisation
+		min = 0
+		max = 100
+	}
+	add_to_variable = { TNO_CHI_Military_GUI_dirty = 1 }
+}

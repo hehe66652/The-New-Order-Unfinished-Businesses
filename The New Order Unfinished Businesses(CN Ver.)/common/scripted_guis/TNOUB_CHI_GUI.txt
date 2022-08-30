@@ -583,8 +583,8 @@ scripted_gui = {
 		triggers = {
 		}
 		properties = {
-			CHI_Edu_GUI_Modernisation = {
-				frame = CHI_GUI_edu_modernisation
+			CHI_Military_GUI_Modernisation = {
+				frame = CHI_GUI_mil_modernisation
 			}
 		}
 	}

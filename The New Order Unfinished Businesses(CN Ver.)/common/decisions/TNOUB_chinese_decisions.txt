@@ -343,7 +343,46 @@ CHI_Remilitarization_category = {
 		cost = 75
 		fire_only_once = yes
 	}
+	CHI_increase_Military_Efficiency = {
+		icon = GFX_decision_document_target
+		visible = {
+			check_variable = {
+				mil_efficiency < 6
+			}
+		}
+		available = {
+			
+			check_variable = {
+				var = CHI_GUI_military_modernisation
+				value = 1
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				mil_efficiency < 6
+			}
+			CHI_is_not_in_crisis = yes
+		}
 
+		cost = 20
+
+		complete_effect = {
+			add_to_variable = { mil_efficiency = 1 }
+			subtract_from_variable = { CHI_GUI_military_modernisation = 1 }
+			CHI_GUI_Mil_Modernisation_setup = yes
+			if = {
+				limit = {
+					check_variable = {
+						mil_efficiency > 5
+					}
+				}
+				set_country_flag = CHI_mil_modernisation_complete
+			}
+		}
+
+		ai_will_do = {
+			factor = 1000
+		}
+	}
 	debug_militarizationdecison = {
 		icon = GFX_decision_generic_industry
 
@@ -384,6 +423,50 @@ CHI_Remilitarization_category = {
 
 		complete_effect = {
 			add_to_variable = { ija_alert = -0.05 } 
+		}
+	}
+	debug_improve_militarization_decison_full = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_GUI_military_modernisation = 1 }
+			CHI_GUI_Mil_Modernisation_setup = yes
+		}
+	}
+	debug_improve_militarization_decison_half = {
+		icon = GFX_decision_generic_industry
+
+		allowed = {
+			original_tag = CHI
+		}
+		visible = {
+			is_debug = yes
+			is_ai = no
+		}
+		available = {
+			CHI_is_not_in_crisis = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+
+		complete_effect = {
+			add_to_variable = { CHI_GUI_military_modernisation = 0.5 }
+			CHI_GUI_Mil_Modernisation_setup = yes
 		}
 	}
 }
